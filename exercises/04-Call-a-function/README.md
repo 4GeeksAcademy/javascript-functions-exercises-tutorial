@@ -28,6 +28,8 @@ The value of squareArea will be set to 18"
 
 Using the squareArea function, print on the console the area of the following figures:
 
+![Calling a function to calculate the area](http://i.imgur.com/VyoJRAL.png)
+
 # 💡 Hint:
 
 Call the `squareArea` function 3 times, one per each square, passing the length and edge of each square.
