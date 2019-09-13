@@ -47,10 +47,13 @@ Exercise:
 
 
    Create a new variable named squareArea for each new iteration of the calculateArea function using the figure dimensions, for example for the first figure,
-   let squareArea1 = calculateArea(3,6);
+   ```js
+let squareArea1 = calculateArea(3,6);
+```
    For the Second figure,
+   ```js
    let squareArea2 = functionCall(x,y);
-   print on the console the area of the following figures:
+   ```
 
    ![img](http://i.imgur.com/VyoJRAL.png)
 
@@ -62,7 +65,7 @@ Exercise:
 Call the `squareArea` function 3 times, one per each square, passing the length and edge of each square.
 
 =======
-![Calling a function to calculate the area](http://i.imgur.com/VyoJRAL.png)
+
 
 
 Click here to learn more about functions: http://www.mathopenref.com/functionsprog.html
