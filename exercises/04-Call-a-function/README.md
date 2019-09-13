@@ -1,6 +1,9 @@
 # `04` Calling a function
 
+
 Functions are blocks of code that you save to be (re)used later; that specific fragment of code has a predefined purpose and it does a defined task. A function could receive some or no parameters to be able to execute and must always return.
+=======
+
 
 For example: a function that calculates the area of a square will be something like this:
 
@@ -11,9 +14,13 @@ function calculateArea(length, edge)
 }
 ```
 
+
 =======
 
 If you want to use that function to calculate the area of a square with
+=======
+
+
 
 ```
 length = 3
@@ -21,11 +28,15 @@ edge = 6
 ```
 
 
+=======
+
+
 You need to do something like this:
 ```js
 let squareArea = calculateArea(3,6);
 ```
 The value of squareArea will be set to 18"
+
 
 
 
@@ -43,7 +54,11 @@ Exercise:
 =======
 # 💡 Hint:
 
+
 Call the `squareArea` function 3 times, one per each square, passing the length and edge of each square.
+
+=======
+![Calling a function to calculate the area](http://i.imgur.com/VyoJRAL.png)
 
 
 Click here to learn more about functions: http://www.mathopenref.com/functionsprog.html
