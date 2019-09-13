@@ -5,21 +5,29 @@ function calculateArea(length, edge)
     return length * edge;
 }
 
-If you want to use that function to calculate the area of a square with 
-length = 3
-edge = 6
+If you want to use that function to calculate the area of a square with
+
+    length = 3
+    edge = 6
+
 you need to do something like this:
 
 var squareArea = calculateArea(3,6);
 
 The value of squareArea will be set to 18"
 
+
+
 Exercise:
 
-Using the squareArea function, print on the console the area of the following figures:
+    Using the calculateArea function, print on the console the area of the following figures:
 
-Hint:
+   ![img](http://i.imgur.com/VyoJRAL.png)
 
-Call the squareArea function 3 times, one per each square, passing the length and edge of each square.
+    Hint:
+
+    Call the calculateArea function 3 times, one per each square, passing the length and edge of each square.
+    Don't forget to wrap it in a console.log
+
 
 Click here to learn more about functions: http://www.mathopenref.com/functionsprog.html

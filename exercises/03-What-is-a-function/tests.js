@@ -4,9 +4,9 @@ const fs = require('fs');
 it('Declare a superduper variable', function () {
 
     const app = rewire('./app.js');
-    const superduper = app.__get__("superduper")
+    const superduper = app.__get__("superduper");
 
-    //Expect the console log to have been called with "Hello World" at least one
+
     expect(superduper).toEqual(expect.anything());
 });
 
@@ -16,7 +16,7 @@ it('Superduper has to be equal to the sum of the two numbers', function () {
     const superduper = app.__get__("superduper")
 
     console.log("Superduper", superduper );
-    //Expect the console log to have been called with "Hello World" at least one
+
     expect(superduper).toBe(3445324 + 53454423);
 });
 
@@ -26,7 +26,7 @@ it('You have to call the function sum', function () {
     const fileContent = fs.readFileSync('./exercises/03-What-is-a-function/app.js');
     const match = regex.exec(fileContent);
 
-    //Expect the console log to have been called with "Hello World" at least one
+
     expect(match).toBeTruthy();
 
 });
@@ -38,7 +38,7 @@ it('The function sum has to be called with the two values', function () {
     const fileContent = fs.readFileSync('./exercises/03-What-is-a-function/app.js');
     const match = regex.exec(fileContent);
 
-    //Expect the console log to have been called with "Hello World" at least one
+
     expect(parseInt(match[1],10)).toBe(3445324);
     expect(parseInt(match[2],10)).toBe(53454423);
 });
