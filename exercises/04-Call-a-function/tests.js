@@ -3,12 +3,19 @@ const fs = require('fs');
 
 
 
+it('Declare a squareArea variable', function () {
+
+    const app = rewire('./app.js');
+    const squareArea = app.__get__("squareArea");
 
 
+    expect(squareArea).toEqual(expect.anything());
+});
 
-it('You have to call the function calculateArea inside a console.log three times with different parameters', function () {
 
-    const regex = /console.log\(calculateArea\s*\(\s*(\d+)\s*,\s*(\d+)\)\);/gm;
+it('You have to call the function calculateArea three times with the different area parameters', function () {
+
+    const regex =  /squareArea\s*=\s*calculateArea\s*\(\s*(\d+)\s*,\s*(\d+)\)/gm;
     const fileContent = fs.readFileSync('./exercises/04-Call-a-function/app.js');
     const match = regex.exec(fileContent);
 
@@ -20,18 +27,18 @@ it('You have to call the function calculateArea inside a console.log three times
 it('Call the calculateArea function with the correct parameters', function () {
 
     const app = rewire('./app.js');
-    const calculateArea = app.__get__("calculateArea");
-    console.log("calculateArea", calculateArea);
+    const squareArea = app.__get__("squareArea");
+    console.log("SquareArea", squareArea);
 
-    expect(calculateArea).toBe(4 * 4);
-    expect(calculateArea).toBe(2 * 2);
-    expect(calculateArea).toBe(5 * 5);
+    expect(squareArea).toBe(4 * 4);
+    expect(squareArea).toBe(2 * 2);
+    expect(squareArea).toBe(5 * 5);
 
 });
 
 it('The function calculateArea has to be called with the two values', function () {
 
-    const regex = /console.log\(calculateArea\s*\(\s*(\d+)\s*,\s*(\d+)\)\);/gm;
+    const regex = /squareArea\s*=\s*calculateArea\s*\(\s*(\d+)\s*,\s*(\d+)\)/gm;
     const fileContent = fs.readFileSync('./exercises/04-Call-a-function/app.js');
     const match = regex.exec(fileContent);
 
@@ -40,7 +47,3 @@ it('The function calculateArea has to be called with the two values', function (
     expect(parseInt(match[2],10)).toBeTruthy();
 });
 
-// it('console.log() function should be called with Hello World', function () {
-//     require("./app.js");
-//     expect(console.log).toHaveBeenCalledWith("Hello World");
-// });
