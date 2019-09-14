@@ -1,37 +1,24 @@
+const rewire = require('rewire');
 const fs = require('fs');
-const multi = require('./multi');
 
-jest.dontMock('fs');
-//here we are going to store and accumulate (concatenate) all the console log's from the exercise
-let _buffer = "";
-let _log = console.log;
 
-// lets override the console.log function to mock it,
-// but we are also going to save what supposed to be the ouput of the console inside _buffer
-global.console.log = console.log = jest.fn((text) => _buffer += text + "\n");
 
-describe('Create the function multi with 2 params and return', function () {
-    beforeEach(() => {
-        //here I import the HTML into the document
-    });
-    afterEach(() => { jest.resetModules(); });
+it('Did you create a function named "multi" that expects two parameters?', () => {
 
-    it('Create the function multi with 2 params and return', function () {
+    const regex = /function\s*multi\s*\((\w+)\s*,\s*(\w+)\s*\)\s*{\s*return\s*\w+\s*\W+\s*\w+\s*;\s*}/gm;
+    const fileContent = fs.readFileSync('./exercises/05-Defining-vs-Calling-a-function/app.js');
+    const match = regex.exec(fileContent);
 
-        /*
-            Here is how to mock the alert function:
-            https://stackoverflow.com/questions/41885841/how-to-mock-the-javascript-window-object-using-jest
-        */
+     expect(match).toEqual(expect.anything());
 
-        //then I import the index.js (which should have the alert() call inside)
-        const file = require("./app.js");
-
-        //Expect the console log to have been called with "Hello World" at least one
-        expect(multi.add(x,y)).toBe(37668548640398140);
-        //and I expect the console.log to be already called just one time.
-        expect(console.log.mock.calls.length).toBe(1);
-
-        //You can also compare the entire console buffer (if there have been several console.log calls on the exercise)
-        //expect(_buffer).toBe("Compare with the entire function buffer out");
-    });
 });
+
+it('Did you return the two parameters multiplied by each other?', () => {
+
+    const app = rewire('./app.js');
+    let returnValue = app.__get__("returnValue");
+
+    expect(returnValue).toBe(376685484);
+
+});
+
