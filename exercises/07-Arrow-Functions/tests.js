@@ -1,39 +1,39 @@
+const rewire = require('rewire');
 const fs = require('fs');
-const path = require('path');
 
-jest.dontMock('fs');
-//here we are going to store and accumulate (concatenate) all the console log's from the exercise
-let _buffer = "";
-let _log = console.log;
 
-// lets override the console.log function to mock it,
-// but we are also going to save what supposed to be the ouput of the console inside _buffer
-global.console.log = console.log = jest.fn((text) => _buffer += text + "\n");
 
-describe('The output should be JHN', function () {
-    beforeEach(() => {
-        //here I import the HTML into the document
-    });
-    afterEach(() => { jest.resetModules(); });
+it('Did you declare an arrow function and save it to constant named rapid?', function () {
 
-    it('console.log() function should return a string', function () {
+    const app = rewire('./app.js');
+    let rapid = app.__get__("rapid");
+   const regex = /const\s*rapid\s*=\s*\(\s*(\w+)\s*\)\s*=>/gm;
+   const fileContent = fs.readFileSync('./exercises/07-Arrow-Functions/app.js');
+    const match = regex.exec(fileContent);
 
-        /*
-            Here is how to mock the alert function:
-            https://stackoverflow.com/questions/41885841/how-to-mock-the-javascript-window-object-using-jest
-        */
+    expect(match).toBeTruthy();
+    expect(rapid).toEqual(expect.anything());
 
-        //then I import the index.js (which should have the alert() call inside)
-        const file = require("./app.js");
-
-        //Expect the console log to have been called with "Hello World" at least one
-        expect(console.log).toHaveBeenCalledWith(rapid(str));
-        expect(console.log).toBe("JHN");
-        //and I expect the console.log to be already called just one time.
-        expect(console.log.mock.calls.length).toBe(1);
-
-        //You can also compare the entire console buffer (if there have been several console.log calls on the exercise)
-        //expect(_buffer).toBe("Compare with the entire function buffer out");
-    });
-    
 });
+
+
+it('Did you create a for loop to iterate through the string and remove the vowels?', function () {
+
+   const regex = /for\s*/gm;
+   const fileContent = fs.readFileSync('./exercises/07-Arrow-Functions/app.js');
+    const match = regex.exec(fileContent);
+
+    expect(match).toBeTruthy();
+
+
+});
+it('The console.log(rapid(str) should output "JHN" ', function () {
+
+    const app = rewire('./app.js');
+    let rapid = app.__get__("rapid(str)");
+
+
+    expect(rapid).toBe("JHN");
+
+});
+
