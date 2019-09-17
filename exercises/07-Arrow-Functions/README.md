@@ -1,4 +1,4 @@
-# `06` Arrow functions
+# `07` Arrow functions
 
 Take aim and note
 Arrow functions allows a short syntax for writing function expressions.
