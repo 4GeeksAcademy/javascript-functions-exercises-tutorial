@@ -1,7 +1,5 @@
 //Define the function called "multi" that expects 2 parameters:
-function multi(x,y){
-    return x * y;
-}
+
 
 
   //don't edit anything below this line
