@@ -1,39 +1,16 @@
 const fs = require('fs');
-const path = require('path');
+const rewire = require('rewire');
 
-jest.dontMock('fs');
-//here we are going to store and accumulate (concatenate) all the console log's from the exercise
-let _buffer = "";
-let _log = console.log;
+global.console.log = console.log = jest.fn((text) => null);
 
-// lets override the console.log function to mock it,
-// but we are also going to save what supposed to be the ouput of the console inside _buffer
-global.console.log = console.log = jest.fn((text) => _buffer += text + "\n");
+it('Did you use console.log?', function () {
+    require("./app.js");
+    expect(console.log.mock.calls.length).toBe(1);
+});
 
-describe('The output should be 137 dollars to yen', function () {
-    beforeEach(() => {
-        //here I import the HTML into the document
-    });
-    afterEach(() => { jest.resetModules(); });
 
-    it('console.log() function should return a value of 137 dollars in yen', function () {
+it('console.log() should be called with euroToYen and dollarToEuro with the correct parameter of 137?', function () {
 
-        /*
-            Here is how to mock the alert function:
-            https://stackoverflow.com/questions/41885841/how-to-mock-the-javascript-window-object-using-jest
-        */
-
-        //then I import the index.js (which should have the alert() call inside)
-        const file = require("./app.js");
-
-        //Expect the console log to have been called with "Hello World" at least one
-        expect(console.log).toHaveBeenCalledWith(euroToYen(dollarToEuro(137)));
-        expect(console.log).toBe(15137.609500000002);
-        //and I expect the console.log to be already called just one time.
-        expect(console.log.mock.calls.length).toBe(1);
-
-        //You can also compare the entire console buffer (if there have been several console.log calls on the exercise)
-        //expect(_buffer).toBe("Compare with the entire function buffer out");
-    });
-    
+  expect(console.log).toHaveBeenCalledWith(15137.609500000002);
+//    console.log(euroToYen(dollarToEuro(137)));
 });

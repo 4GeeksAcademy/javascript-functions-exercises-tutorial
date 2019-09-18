@@ -1,39 +1,25 @@
+const rewire = require('rewire');
 const fs = require('fs');
-const path = require('path');
 
-jest.dontMock('fs');
-//here we are going to store and accumulate (concatenate) all the console log's from the exercise
-let _buffer = "";
-let _log = console.log;
 
-// lets override the console.log function to mock it,
-// but we are also going to save what supposed to be the ouput of the console inside _buffer
-global.console.log = console.log = jest.fn((text) => _buffer += text + "\n");
 
-describe('Write a render person function to print the correct string', function () {
-    beforeEach(() => {
-        //here I import the HTML into the document
-    });
-    afterEach(() => { jest.resetModules(); });
+it('Did you create a function named "renderPerson" that expects five parameters?', () => {
 
-    it('console.log() function should return a string with the correct parameters in order', function () {
+    const regex = /function\s*renderPerson\s*\(\s*(\w+)\s*,\s*(\w+)\s*,\s*(\w+)\s*,\s*(\w+)\s*,\s*(\w+)\s*\)/gm;
+    const fileContent = fs.readFileSync('./exercises/09-Function-parameters/app.js');
+    const match = regex.exec(fileContent);
 
-        /*
-            Here is how to mock the alert function:
-            https://stackoverflow.com/questions/41885841/how-to-mock-the-javascript-window-object-using-jest
-        */
+     expect(match).toEqual(expect.anything());
 
-        //then I import the index.js (which should have the alert() call inside)
-        const file = require("./app.js");
-
-        //Expect the console log to have been called with "Hello World" at least one
-        expect(console.log).toHaveBeenCalledWith(renderPerson('Bob', '05/22/1983', 'green', 23, 'male'));
-        expect(console.log).toBe("Bob is a 23 year old male born in 05/22/1983 with green eyes");
-        //and I expect the console.log to be already called just one time.
-        expect(console.log.mock.calls.length).toBe(1);
-
-        //You can also compare the entire console buffer (if there have been several console.log calls on the exercise)
-        //expect(_buffer).toBe("Compare with the entire function buffer out");
-    });
-    
 });
+global.console.log = console.log = jest.fn((text) => null);
+
+it('Did you use console.log?', function () {
+    require("./app.js");
+    expect(console.log.mock.calls.length).toBe(1);
+});
+
+it('Did you return the parameters in the correct concatenation?', () => {
+   expect(console.log).toHaveBeenCalledWith("Bob is a 23 years old male born in 05/22/1983 with green eyes");
+});
+
