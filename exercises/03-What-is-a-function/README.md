@@ -12,7 +12,7 @@ function sum(number1,number2) {
 
 After the function is declared we can use it as many times as we want, like this:
 
-```
+```js
 let total = sum(2,3);
 let total2 = sum(5,10);
 let total3 = sum(2,3);
@@ -20,4 +20,4 @@ let total3 = sum(2,3);
 
 # 📝 Instructions
 
-Please calculate the sum between `3445324` and `53454423` and assign the result to a variable called `superduper`
+Please calculate the sum between **3445324** and **53454423** and assign the result to a variable called `superduper`
