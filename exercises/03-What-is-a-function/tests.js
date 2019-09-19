@@ -45,7 +45,7 @@ it('The function sum has to be called with the two values', function () {
 
 it('Did you console.log superduper?', function () {
 
-    const regex =  /console.log\(\s*superduper\s*\);/gm;
+    const regex =  /console.log\(\s*superduper\s*\)/gm;
     const fileContent = fs.readFileSync('./exercises/03-What-is-a-function/app.js');
     const match = regex.exec(fileContent);
 
