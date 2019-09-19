@@ -9,7 +9,7 @@ console.log(x(2,2));
 
 # 📝 Instructions:
 
-1. Create an arrow function called rapids it will take on string
+1. Create an arrow function called rapid it will take on string
 2. Loop the string and take out all vowels
 3. Capitalize the consonants
 4. Return the new string
