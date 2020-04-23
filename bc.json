@@ -1,3 +1,104 @@
 {
-    "compiler": "node"
+    "port": 3000,
+    "address": "localhost",
+    "editor": "gitpod",
+    "outputPath": "./.breathecode/dist",
+    "publicPath": "/preview",
+    "grading": "isolated",
+    "ignoreRegex": null,
+    "webpack_template": null,
+    "disable_grading": false,
+    "onCompilerSuccess": null,
+    "language": "node",
+    "compiler": "node",
+    "tester": "jest",
+    "actions": [
+        "run",
+        "test",
+        "reset"
+    ],
+    "session": 5942897184236031000,
+    "exercisesPath": "./exercises",
+    "exercises": [
+        {
+            "slug": "01-Welcome",
+            "title": "01-Welcome",
+            "path": "exercises/01-Welcome",
+            "translations": [
+                "us"
+            ]
+        },
+        {
+            "slug": "02-Hello-World",
+            "title": "02-Hello-World",
+            "path": "exercises/02-Hello-World",
+            "translations": [
+                "us"
+            ]
+        },
+        {
+            "slug": "03-What-is-a-function",
+            "title": "03-What-is-a-function",
+            "path": "exercises/03-What-is-a-function",
+            "translations": [
+                "us"
+            ]
+        },
+        {
+            "slug": "04-Call-a-function",
+            "title": "04-Call-a-function",
+            "path": "exercises/04-Call-a-function",
+            "translations": [
+                "us"
+            ]
+        },
+        {
+            "slug": "05-Defining-vs-Calling-a-function",
+            "title": "05-Defining-vs-Calling-a-function",
+            "path": "exercises/05-Defining-vs-Calling-a-function",
+            "translations": [
+                "us"
+            ]
+        },
+        {
+            "slug": "06-Anonymous-functions",
+            "title": "06-Anonymous-functions",
+            "path": "exercises/06-Anonymous-functions",
+            "translations": [
+                "us"
+            ]
+        },
+        {
+            "slug": "07-Arrow-Functions",
+            "title": "07-Arrow-Functions",
+            "path": "exercises/07-Arrow-Functions",
+            "translations": [
+                "us"
+            ]
+        },
+        {
+            "slug": "08-Function-that-returns",
+            "title": "08-Function-that-returns",
+            "path": "exercises/08-Function-that-returns",
+            "translations": [
+                "us"
+            ]
+        },
+        {
+            "slug": "09-Function-parameters",
+            "title": "09-Function-parameters",
+            "path": "exercises/09-Function-parameters",
+            "translations": [
+                "us"
+            ]
+        },
+        {
+            "slug": "10-Array-Methods",
+            "title": "10-Array-Methods",
+            "path": "exercises/10-Array-Methods",
+            "translations": [
+                "us"
+            ]
+        }
+    ]
 }
