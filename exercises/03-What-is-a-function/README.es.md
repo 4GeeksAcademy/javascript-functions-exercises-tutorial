@@ -20,4 +20,4 @@ let total3 = sum(2,3);
 
 # 📝 Instrucciones
 
-Calcule la suma entre **3445324** y **53454423** y asigne el resultado a una variable llamada `superduper`
+Calcula la suma entre **3445324** y **53454423** y asigna el resultado a una variable llamada `superduper`
