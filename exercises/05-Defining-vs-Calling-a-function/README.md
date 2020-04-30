@@ -21,7 +21,7 @@ Example names: addTwoIntegers , convertAStringIntoAnInteger , changeTheWorldUsin
 **Scope:** All the operations that the function will do needs to be inside the `{` `}` (curly brackets), anything outside won't be considered as part of the function, this is called **the scope**, and it could be local (inside the function) and global (outside of the function).
 
 **The Return**: not every function needs to return something, but it is recommended that it does.
-Tip: return; is a good default for when you, still, doesn't know if you need to return something.
+Tip: `return;` is a good default for when you, still, doesn't know if you need to return something.
 
 Example of a function:
 

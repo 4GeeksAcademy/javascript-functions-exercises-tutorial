@@ -7,7 +7,7 @@
 </p>
 
 These exercises are intent to be built by collaboration, we need you!
-If you find any bugs or misspells plese contribute and report them.
+If you find any bugs or misspells please contribute and report them.
 
 ## Start practicing right now in gitpod:
 
@@ -44,7 +44,7 @@ $ bc run:exercises
 
 Each exercise is a small react application containing the following files:
 
-1. **index.js:** represents the entry file for the entire app.
+1. **app.js:** represents the entry file for the exercise.
 2. **README.md:** contains exercise instructions.
 3. **test.js:** you don't have to open this file, it contains the testing script for the exercise.
 
@@ -54,6 +54,8 @@ Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds
 
 1. [Alejandro Sanchez (alesanchezr)](https://github.com/alesanchezr), contribution: (coder) :computer: (idea) 🤔, (build-tests) :warning:, (pull-request-review) :eyes: (build-tutorial) :white_check_mark: (documentation) :book:
 2. [Paolo Lucano (plucodev)](https://github.com/plucodev), contribution: (bug reports) :bug:, (translation) :earth_americas:, (build-tests) :warning:
+3. [Marco Gómez (marcogonzalo)](https://github.com/marcogonzalo), contribution: (bug reports) :bug:, (translation) :earth_africa:
+
 
 This project follows the
 [all-contributors](https://github.com/kentcdodds/all-contributors)

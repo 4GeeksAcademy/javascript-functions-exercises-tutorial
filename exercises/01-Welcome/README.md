@@ -8,6 +8,7 @@ During this course you will be learning the following concepts:
 2. Selecting Correct Javascript methods to sort Arrays
 3. Get comfortable using ES6 Arrow Functions
 4. Construct Functions with parameters.
+
 Learn the most popular Javascript Tricks.
 
 ## Contributors
