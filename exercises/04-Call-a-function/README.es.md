@@ -2,7 +2,7 @@
 
 Las funciones son bloques de código que se guardan para ser (re)utilizados más tarde; ese fragmento específico de código tiene un propósito predefinido y realiza una tarea definida. Una función podría recibir algunos o ningún parámetro para poder ejecutarse y siempre debe regresar.
 
-Por ejemplo: una función que calcula el área de un cuadrado será algo como esto:
+Por ejemplo, una función que calcula el área de un cuadrado sería algo como esto:
 
 ```js
 function calculateArea(length, edge) {

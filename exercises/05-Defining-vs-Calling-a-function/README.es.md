@@ -5,7 +5,7 @@ Las funciones solo existirán si usted u otra persona las define ... es la únic
 Para definir una función necesitamos escribir esta fórmula básica de código:
 
 ```js
-function myFunctionName(parameter, parameter2,... parameterX){
+function myFunctionName(parameter, parameter2,... parameterX) {
     //the function code here
     return something;
 }
@@ -21,7 +21,7 @@ Nombres de ejemplo: addTwoIntegers, convertAStringIntoAnInteger, changeTheWorldU
 **Alcance:** Todas las operaciones que realizará la función deben estar dentro de `{` `}` (llaves). Cualquier cosa por fuera, no se considerará como parte de la función. Esto se llama **el alcance** (scope), y podría ser local (dentro de la función) y global (fuera de la función).
 
 **El retorno**: no todas las funciones necesitan devolver algo, pero se recomienda que lo haga.
-Consejo: `return;` es un buen valor predeterminado para cuando, aún, no sabe si se necesita devolver algo.
+Consejo: `return;` es un buen valor predeterminado para cuando, aún, no sabes si se necesita devolver algo.
 
 Ejemplo de una funcion:
 

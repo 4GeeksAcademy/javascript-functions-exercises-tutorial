@@ -6,7 +6,8 @@
 
 # 💡 Pista
 
-- Cada arreglo viene con funciones predeterminadas que permiten la ordenación, ¡úsala dentro de tu función!
+- Cada arreglo viene con funciones predeterminadas que permiten la ordenación, ¡úsalas dentro de tu función!
 
 ¿Atrapado en el ordenamiento? Lee la página de Mozilla sobre ordenar los arreglos:
+
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort

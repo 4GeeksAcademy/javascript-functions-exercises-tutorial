@@ -1,4 +1,4 @@
-# `08` Funciones que devuelve
+# `08` Funciones que devuelven
 
 Es una muy buena práctica que todas las funciones devuelvan algo, incluso si es "null". Si tus funciones devuelven algo, puedes crear algoritmos que utilicen varias funciones al mismo tiempo. Por ejemplo, en este caso particular tenemos dos funciones disponibles:
 
@@ -11,4 +11,7 @@ euroToYen: calcula el valor en yenes de un valor dado en euros.
 
 # 💡 Pista
 
-- Trabajando hacia atrás, nuestro valor esperado está en yenes. Nuestra función disponible euroToYen proporcionará eso, y para llegar al euro, usaremos la función disponible dollarToEuro.
+Trabajando al revés:
+- Nuestro valor esperado está en yenes. 
+- Nuestra función disponible euroToYen proporcionará eso.
+- Para llegar al euro, usaremos la función disponible dollarToEuro.
