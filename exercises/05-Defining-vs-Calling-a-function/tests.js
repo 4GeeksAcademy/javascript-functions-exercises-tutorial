@@ -9,7 +9,7 @@ it('Did you create a function named "multi" that expects two parameters?', () =>
     const fileContent = fs.readFileSync('./exercises/05-Defining-vs-Calling-a-function/app.js');
     const match = regex.exec(fileContent);
 
-     expect(match).toEqual(expect.anything());
+     expect(match).toBeTruthy();
 
 });
 

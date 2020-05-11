@@ -12,7 +12,7 @@ it('Did you declare an arrow function and save it to constant named rapid?', fun
     const match = regex.exec(fileContent);
 
     expect(match).toBeTruthy();
-    expect(rapid).toEqual(expect.anything());
+    expect(rapid).toBeTruthy();
 
 });
 

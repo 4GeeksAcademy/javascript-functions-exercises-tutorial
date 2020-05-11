@@ -9,7 +9,7 @@ it('Did you create a function named "renderPerson" that expects five parameters?
     const fileContent = fs.readFileSync('./exercises/09-Function-parameters/app.js');
     const match = regex.exec(fileContent);
 
-     expect(match).toEqual(expect.anything());
+     expect(match).toBeTruthy();
 
 });
 global.console.log = console.log = jest.fn((text) => null);

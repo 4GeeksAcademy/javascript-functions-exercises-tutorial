@@ -11,9 +11,9 @@ it('Declare a squareArea variable for each call ex. squareArea1, squareArea2...'
     let squareArea3 = app.__get__("squareArea3");
 
 
-    expect(squareArea1).toEqual(expect.anything());
-    expect(squareArea2).toEqual(expect.anything());
-    expect(squareArea3).toEqual(expect.anything());
+    expect(squareArea1).toBeTruthy();
+    expect(squareArea2).toBeTruthy();
+    expect(squareArea3).toBeTruthy();
 });
 
 
