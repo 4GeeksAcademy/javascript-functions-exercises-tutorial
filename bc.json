@@ -25,6 +25,7 @@
             "title": "01-Welcome",
             "path": "exercises/01-Welcome",
             "translations": [
+                "es",
                 "us"
             ]
         },
@@ -33,6 +34,7 @@
             "title": "02-Hello-World",
             "path": "exercises/02-Hello-World",
             "translations": [
+                "es",
                 "us"
             ]
         },
@@ -41,6 +43,7 @@
             "title": "03-What-is-a-function",
             "path": "exercises/03-What-is-a-function",
             "translations": [
+                "es",
                 "us"
             ]
         },
@@ -49,6 +52,7 @@
             "title": "04-Call-a-function",
             "path": "exercises/04-Call-a-function",
             "translations": [
+                "es",
                 "us"
             ]
         },
@@ -57,6 +61,7 @@
             "title": "05-Defining-vs-Calling-a-function",
             "path": "exercises/05-Defining-vs-Calling-a-function",
             "translations": [
+                "es",
                 "us"
             ]
         },
@@ -65,6 +70,7 @@
             "title": "06-Anonymous-functions",
             "path": "exercises/06-Anonymous-functions",
             "translations": [
+                "es",
                 "us"
             ]
         },
@@ -73,6 +79,7 @@
             "title": "07-Arrow-Functions",
             "path": "exercises/07-Arrow-Functions",
             "translations": [
+                "es",
                 "us"
             ]
         },
@@ -81,6 +88,7 @@
             "title": "08-Function-that-returns",
             "path": "exercises/08-Function-that-returns",
             "translations": [
+                "es",
                 "us"
             ]
         },
@@ -89,6 +97,7 @@
             "title": "09-Function-parameters",
             "path": "exercises/09-Function-parameters",
             "translations": [
+                "es",
                 "us"
             ]
         },
@@ -97,6 +106,7 @@
             "title": "10-Array-Methods",
             "path": "exercises/10-Array-Methods",
             "translations": [
+                "es",
                 "us"
             ]
         }
