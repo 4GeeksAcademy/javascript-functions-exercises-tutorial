@@ -1,6 +1,6 @@
 # `04` Llamar a una función
 
-Las funciones son bloques de código que se guardan para ser (re)utilizados más tarde; ese fragmento específico de código tiene un propósito predefinido y realiza una tarea definida. Una función podría recibir algunos o ningún parámetro para poder ejecutarse y siempre debe regresar.
+Las funciones son bloques de código que se guardan para ser (re)utilizados más tarde; ese fragmento específico de código tiene un propósito predefinido y realiza una tarea definida. Una función podría recibir algunos o ningún parámetro para poder ejecutarse y siempre debe retornar algo.
 
 Por ejemplo, una función que calcula el área de un cuadrado sería algo como esto:
 
@@ -18,6 +18,7 @@ edge = 6    // borde
 ```
 
 Necesitas hacer algo como esto:
+
 ```js
 let squareArea = calculateArea(3,6);
 ```
@@ -33,6 +34,7 @@ let squareArea1 = calculateArea(3,6);
 ```
 
 Para la segunda figura,
+
 ```js
 let squareArea2 = functionCall(x,y);
 ```

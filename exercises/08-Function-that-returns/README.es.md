@@ -1,6 +1,6 @@
 # `08` Funciones que devuelven
 
-Es una muy buena práctica que todas las funciones devuelvan algo, incluso si es "null". Si tus funciones devuelven algo, puedes crear algoritmos que utilicen varias funciones al mismo tiempo. Por ejemplo, en este caso particular tenemos dos funciones disponibles:
+Es una muy buena práctica que todas las funciones retornen algo, incluso si es "null". Si tus funciones retornen algo, puedes crear algoritmos que utilicen varias funciones al mismo tiempo. Por ejemplo, en este caso particular tenemos dos funciones disponibles:
 
 dollarToEuro: que calcula el valor en euros de un valor dado en dólares.
 euroToYen: calcula el valor en yenes de un valor dado en euros.
