@@ -1,6 +1,6 @@
 # `09` Parámetros de función
 
-Puedes especificar tantos parámetros como desees en una función. Como desarrollador/a, encontrarás funciones con, incluso, 6 o 7 parámetros todo el tiempo. Los nombres de los parámetros no importan, pero debe ser lo más explícito posible porque esos nombres darán pistas a los otros desarrolladores (o a ti en el futuro) sobre de qué se trata cada parámetro.
+Puedes especificar tantos parámetros como desees en una función. Como desarrollador@, encontrarás funciones con, incluso, 6 o 7 parámetros todo el tiempo. Los nombres de los parámetros no importan, pero debe ser lo más explícito posible porque esos nombres darán pistas a los otros desarrolladores (o a ti en el futuro) sobre de qué se trata cada parámetro.
 
 # 📝 Instrucciones:
 

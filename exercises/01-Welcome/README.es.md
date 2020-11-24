@@ -6,7 +6,7 @@ Durante este curso aprenderás los siguientes conceptos:
 
 1. Aprender a llamar a funciones.
 2. Seleccionar los métodos correctos de JavaScript para ordenar arreglos (arrays)
-3. Sentirte cómod@ usando las funciones ES6
+3. Sentirte cómod@ usando las funciones de flecha ES6
 4. Construir funciones con parámetros.
 
 Aprende los trucos Javascript más populares.

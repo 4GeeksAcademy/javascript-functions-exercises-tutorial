@@ -1,20 +1,20 @@
 # `05` Definir vs llamar a una función
 
-Las funciones solo existirán si usted u otra persona las define ... es la única forma en que el compilador/intérprete de idiomas sabe que existen, por lo tanto, puede ejecutarlas cuando las llama.
+Las funciones solo existirán si usted u otra persona las define ... es la única forma en que el compilador/intérprete sabe que existen, por lo tanto, puede ejecutarlas cuando las llamas.
 
 Para definir una función necesitamos escribir esta fórmula de código básica:
 
 ```js
-function myFunctionName(parameter, parameter2,... parameterX) {
-    //the function code here
-    return something;
+function myFunctionName(parametro, parametro2,... parametroX) {
+    //el código de la función va aquí
+    return algo;
 }
 ```
 
 La palabra `function` es una palabra reservada en javascript, esto significa que solo se usa para definir una función.
 
 **El nombre** de la función podría ser lo que quieras. Consejo: usa un nombre descriptivo (no intentes ahorrar palabras, usa tantas como necesites) de esta manera entenderás lo que hace la función -y lo que retorna-.
-Nombres de ejemplo: addTwoIntegers (sumaDosIntergrales), convertAStringIntoAnInteger ( convertirUnStringEnIntegral),  changeTheWorldUsingFrontEndDevelopment (cambiaElMundoUsandoDesarrolloFrontEnd)
+Nombres de ejemplo: addTwoIntegers (sumaDosEnteros), convertAStringIntoAnInteger ( convertirUnStringEnEntero),  changeTheWorldUsingFrontEndDevelopment (cambiaElMundoUsandoDesarrolloFrontEnd)
 
 **Parámetros:** puedes definir tantos parámetros como desees, más aún, si los necesitas. La cantidad de parámetros dependerá de las operaciones realizadas dentro de la función. Ejemplo: si la función está sumando dos enteros (3 + 4), esto significa que la función necesitará dos parámetros (uno para cada entero).
 
@@ -35,7 +35,9 @@ function concatenateNumberToString(localNumber, localString) {
 # 📝 Instrucciones:
 
 1. Define una función llamada "multi".
+
 2. La función "multi" recibe dos números
+
 3. Retorna el resultado de la multiplicación entre ellos.
 
 # 💡 Pista:

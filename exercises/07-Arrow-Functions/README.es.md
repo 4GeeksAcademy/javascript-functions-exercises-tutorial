@@ -9,9 +9,12 @@ console.log(x(2,2));
 
 # 📝 Instrucciones:
 
-1. Crea una función de flecha llamada rapid que tomará string
-2. Recorre el texto y extrae todas las vocales
+1. Crea una función de flecha llamada **rapid** que tomará un string
+
+2. Recorre(loop) el texto y extrae todas las vocales
+
 3. Coloca en mayúscula todas las consonantes
+
 4. Devuelve el nuevo string
 
 # 💡 Pista

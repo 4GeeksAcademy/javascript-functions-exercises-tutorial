@@ -16,7 +16,7 @@ The word `function` is a reserved word in javascript, this means it is only used
 **The name** of the function could be anything you like. Tip: use a descriptive name (don't be cheap with words, use as many as you need) this way you will understand what the function does -and returns-.
 Example names: addTwoIntegers , convertAStringIntoAnInteger , changeTheWorldUsingFrontEndDevelopment
 
-**Parameters:** you can define as many parameters as you like, nay, need. The amount of parameters will depend on the operations done inside the function, I.E: if the function is adding two integers  (3 + 4)  this means the function will need two parameters (one for each integer).
+**Parameters:** you can define as many parameters as you like, may, need. The amount of parameters will depend on the operations done inside the function, I.E: if the function is adding two integers  (3 + 4)  this means the function will need two parameters (one for each integer).
 
 **Scope:** All the operations that the function will do needs to be inside the `{` `}` (curly brackets), anything outside won't be considered as part of the function, this is called **the scope**, and it could be local (inside the function) and global (outside of the function).
 
