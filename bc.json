@@ -1,4 +1,10 @@
 {
     "language": "node",
-    "repository": "https://github.com/4GeeksAcademy/javascript-functions-exercises-tutorial"
+    "title": "Practice Javascript Functions Tutorial",
+    "description": "Start using and practicing javascript functions, learn about arrows, anonymus functions, closures, callbacks and more!",
+    "repository": "https://github.com/4GeeksAcademy/javascript-functions-exercises-tutorial",
+    "duration": 5,
+    "difficulty": "easy",
+    "video-solutions": false,
+    "graded": true
 }
