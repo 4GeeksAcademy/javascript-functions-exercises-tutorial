@@ -7,7 +7,7 @@ it('Did you declare an arrow function and save it to constant named rapid?', fun
 
     const app = rewire('./app.js');
     let rapid = app.__get__("rapid");
-   const regex = /const\s*rapid\s*=\s*\(\s*(\w+)\s*\)\s*=>/gm;
+   const regex = /const\s*rapid\s*=\s*\(?\s*(\w+)\s*\)?\s*=>/gm;
    const fileContent = fs.readFileSync('./exercises/07-Arrow-Functions/app.js');
     const match = regex.exec(fileContent);
 
