@@ -1,3 +1,7 @@
+---
+tutorial: "https://youtu.be/44wVJMqQnUg"
+---
+
 # `06` Anonymous functions
 
 An anonymous function is a function without a name, for example:
@@ -23,4 +27,5 @@ Then, I can call my function like this:
 var result = myFirstVar(2,3);
 ```
 # 📝 Instructions:
+
 Print on the console, the result of using the function `multy` to calculate the multiplication between 324234 and 47

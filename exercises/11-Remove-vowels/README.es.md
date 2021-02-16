@@ -1,4 +1,4 @@
-# `07` Funciones de Flecha
+# `11` Remueve las vocales
 
 Apunta y toma nota: Las funciones de flecha permiten una sintaxis corta para escribir expresiones de funciones.
 

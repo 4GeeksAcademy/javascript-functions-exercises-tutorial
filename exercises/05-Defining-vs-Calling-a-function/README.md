@@ -1,3 +1,7 @@
+---
+tutorial: "https://youtu.be/DCXNm-Lv77E"
+---
+
 # `05` Defining vs Calling a function
 
 Functions will only exists if you or somebody else defines them... It's the only way the language compiler/interpreter knows they exist, therefore it is able to run them when you call them.

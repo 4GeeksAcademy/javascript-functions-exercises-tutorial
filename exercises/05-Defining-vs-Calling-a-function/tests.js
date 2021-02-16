@@ -3,22 +3,35 @@ const fs = require('fs');
 
 
 
-it('Did you create a function named "multi" that expects two parameters and returns a result?', () => {
+it('Did you create a function named "multi"', () => {
+    const app = rewire('./app.js');
+    let multi = app.__get__("multi");
+     expect(multi).toBeTruthy();
+});
 
-    const regex = /function\s*multi\s*\((\w+)\s*,\s*(\w+)\s*\)\s*{[\s\S]*return[\s\S][^\n]*;\s*}/gm;
-    const fileContent = fs.readFileSync('./exercises/05-Defining-vs-Calling-a-function/app.js');
-    const match = regex.exec(fileContent);
+it('Did you create a function named "multi"', () => {
+    const app = rewire('./app.js');
+    let multi = app.__get__("multi");
+     expect(typeof(multi)).toBe("function");
+});
 
-     expect(match).toBeTruthy();
+it('We tested the function for 3 and 6 and it did not returned 18', () => {
+
+    const app = rewire('./app.js');
+    let multi = app.__get__("multi");
+    let solution = multi(3,6);
+
+    expect(solution).toBe(18);
 
 });
 
-it('Did you return the two parameters multiplied by each other?', () => {
+it('We tested the function for 4 and 12 and it did not returned 48', () => {
 
     const app = rewire('./app.js');
-    let returnValue = app.__get__("returnValue");
+    let multi = app.__get__("multi");
+    let solution = multi(4,12);
 
-    expect(returnValue).toBe(376685484);
+    expect(solution).toBe(48);
 
 });
 

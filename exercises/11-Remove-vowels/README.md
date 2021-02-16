@@ -1,4 +1,4 @@
-# `07` Arrow functions
+# `11` Remove vowels
 
 Take aim and note
 Arrow functions allows a short syntax for writing function expressions.
