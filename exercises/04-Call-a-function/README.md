@@ -46,5 +46,5 @@ let squareArea2 = functionCall(x,y);
 
 # 💡 Hint:
 
-- Call the `squareArea` function 3 times, one per each square, passing the length and edge of each square.
+- Call the `calculateArea` function 3 times, one per each square, passing the length and edge of each square.
 - Click here to learn more about functions: http://www.mathopenref.com/functionsprog.html
