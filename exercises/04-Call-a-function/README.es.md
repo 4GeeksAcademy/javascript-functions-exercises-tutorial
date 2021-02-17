@@ -45,6 +45,6 @@ let squareArea2 = functionCall(x,y);
 
 # 💡 Sugerencia:
 
-- Llama a la función `squareArea` 3 veces, una por cada cuadrado, pasando la longitud y el borde de cada cuadrado.
+- Llama a la función `calculateArea` 3 veces, una por cada cuadrado, pasando la longitud y el borde de cada cuadrado.
 
 - Haz clic aquí para obtener más información sobre las funciones: http://www.mathopenref.com/functionsprog.html
