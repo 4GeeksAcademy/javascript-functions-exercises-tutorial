@@ -20,6 +20,6 @@ it('Did you use console.log?', function () {
 });
 
 it('Did you return the parameters in the correct concatenation?', () => {
-   expect(console.log).toHaveBeenCalledWith("Bob is a 23 years old male born on 05/22/1983 with green eyes");
+   expect(console.log).toHaveBeenCalledWith("Bob is a 23 years old male born in 05/22/1983 with green eyes");
 });
 
