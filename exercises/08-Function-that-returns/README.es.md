@@ -7,7 +7,7 @@ euroToYen: calcula el valor en yenes de un valor dado en euros.
 
 # 📝 Instrucciones:
 
-- Usando las dos funciones disponibles, calcula el valor de 137 dólares en yenes.
+- Usando las dos funciones disponibles, calcula el valor de 137 dólares en yenes y imprimelo en la consola.
 
 # 💡 Pista
 
