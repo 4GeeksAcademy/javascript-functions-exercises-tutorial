@@ -1,10 +1,13 @@
-<p align="center">
-  <img src="https://assets.breatheco.de/apis/img/images.php?blob&random&cat=icon&tags=4geeks,128">
-</p>
+# Practice Functions in Javascript 
 
-<p>
-    <h2 align="center"> Practice Functions in Javascript </h2>
-</p>
+<a href="https://www.4geeksacademy.co"><img height="280" align="right" src="https://github.com/4GeeksAcademy/javascript-functions-exercises-tutorial/blob/master/js-functions-badge.png"></a>
+
+> By [@alesanchezr](https://twitter.com/alesanchezr) and [other contributors](https://github.com/4GeeksAcademy/javascript-arrays-exercises-tutorial/graphs/contributors) at [4Geeks Academy](https://4geeksacademy.co/)
+
+![last commit](https://img.shields.io/github/last-commit/4geeksacademy/javascript-arrays-exercises-tutorial)
+[![build by developers](https://img.shields.io/badge/build_by-Developers-blue)](https://breatheco.de)
+[![build by developers](https://img.shields.io/twitter/follow/4geeksacademy?style=social&logo=twitter)](https://twitter.com/4geeksacademy)
+    
 
 These exercises are intent to be built by collaboration, we need you!
 If you find any bugs or misspells please contribute and report them.
