@@ -1,5 +1,7 @@
 # `03`¿Qué es una función (function)?
 
+Auquí podrás encontrar un video de [5 min explicando q es una función](https://www.youtube.com/watch?v=N8ap4k_1QEQ).
+
 Puedes ver una función como un **fragmento de código** que puedes encapsular entre llaves para poder usarla varias veces.
 
 Por ejemplo: si queremos obtener la suma de dos números, podemos declarar una función llamada `sum` que devuelve la suma de number1 y number2:
