@@ -6,7 +6,7 @@ You can specify as many parameters as you want in a function- as a developer you
 Please write the "renderPerson" function required to print a a string like the following:
 
 ```js
-Bob is a 23 years old male born on 05/22/1983 with green eyes
+Bob is a 23 years old male born in 05/22/1983 with green eyes
 ```
 
 # 💡 Hint
