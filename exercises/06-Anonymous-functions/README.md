@@ -28,4 +28,4 @@ var result = myFirstVar(2,3);
 ```
 # 📝 Instructions:
 
-Print on the console, the result of using the function `multy` to calculate the multiplication between 324234 and 47
+Print on the console, the result of using the function `multi` to calculate the multiplication between 324234 and 47
