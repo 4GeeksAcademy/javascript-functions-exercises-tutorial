@@ -1,6 +1,6 @@
 # Practice Functions in Javascript 
 
-<a href="https://www.4geeksacademy.co"><img height="280" align="right" src="https://github.com/4GeeksAcademy/javascript-functions-exercises-tutorial/blob/master/js-functions-badge.png"></a>
+<a href="https://www.4geeksacademy.co"><img height="280" align="right" src="https://github.com/4GeeksAcademy/javascript-functions-exercises-tutorial/blob/master/.learn/assets/js-functions-badge.png"></a>
 
 > By [@alesanchezr](https://twitter.com/alesanchezr) and [other contributors](https://github.com/4GeeksAcademy/javascript-arrays-exercises-tutorial/graphs/contributors) at [4Geeks Academy](https://4geeksacademy.co/)
 
