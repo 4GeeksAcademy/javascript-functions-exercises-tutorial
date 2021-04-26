@@ -14,30 +14,35 @@ If you find any bugs or misspells please contribute and report them.
 
 ## Start practicing right now in gitpod:
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io#https://github.com/4GeeksAcademy/javascript-functions-exercises.git)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io#https://github.com/4GeeksAcademy/javascript-functions-exercises.git
 
 
-## Or Local Installation (if you prefer not to use gitpod)
+## Local Installation
 
-1) Make sure you have the [breathecode-cli](https://github.com/breatheco-de/breathecode-cli) installed and `node.js` version 8+
+1. Install learnpack, the package manager for learning tutorials and the html compiler plugin for learnpack, make sure you also have node.js 12+:
+
 ```
-This is the command to install the breathecode-cli
-$ npm i breathecode-cli -g
-```
-
-2) Download the react exercises in the current directory run:
-```
-$ git clone https://github.com/4GeeksAcademy/javascript-functions-exercises.git && cd javascript-functions-exercises
+$ npm i learnpack -g
+$ learnpack plugins:install learnpack-node
 ```
 
-Note: Once you finish downloading, you will find a new folder with a subdirectory "exercises" that contains all the exercises within.
+2. Download this particular exercise using learnpack and `cd` into the folder:
 
-3) Start the tutorial/exercises by running the following command from the root of the project:
+```
+$ learnpack download javascript-functions-exercises-tutorial
+$ cd javascript-functions-exercises-tutorial
+```
+
+Note: Once you finish downloading, you will find a "exercises" folder that contains all the exercises within.
+
+3. Start the tutorial/exercises by running the following command at the same level were your bc.json file is:
 
 ```sh
 $ npm i jest@24.8.0 -g
-$ bc run:exercises
+$ learnpack start
 ```
+
+Note: The exercises have automatic grading but its very rigid and string, my recomendation is to ignore the tests and use them only as a recomendation or you can get frustrated.
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/4GeeksAcademy/react-exercises/master/preview.gif">
