@@ -14,27 +14,32 @@ Si encuentras algún error de código o de escritura, por favor, contribuy y rep
 [![Ábrelo en Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io#https://github.com/4GeeksAcademy/javascript-functions-exercises.git)
 
 
-## O por instalación local (si prefieres no usar Gitpod)
+## Instalación local
 
-1) Asegúrate de tener [breathecode-cli](https://github.com/breatheco-de/breathecode-cli) instalado y `node.js` versión 8+
-```
-This is the command to install the breathecode-cli
-$ npm i breathecode-cli -g
-```
+1. Instala learnpack, el package manager para tutoriales y el plugin compilador de html para learnpack, asegúrate de tener instalado node.js 12+:
 
-2) Descarga los ejercicios de JavaScript en el directorio actual y ejecutando:
 ```
-$ git clone https://github.com/4GeeksAcademy/javascript-functions-exercises.git && cd javascript-functions-exercises
+$ npm i learnpack -g
+$ learnpack plugins:install learnpack-node
 ```
 
-Nota: Una vez termine la descarga, encontrarás un nuevo directorio con un subdirectorio llamado "exercises" que contiene todos los ejercicios dentro.
+2. Descarga este ejercicio en particular usando learnpack y `cd` dentro de la carpeta:
 
-3) Comienza el tutorial/ejercicios ejecutando el siguiente comando desde la raíz del proyecto:
+```
+$ learnpack download javascript-functions-exercises-tutorial
+$ cd javascript-functions-exercises-tutorial
+```
+
+Nota: Una vez que termines de descargarlo, encontrarás una carpeta llamada "exercises" que contiene los ejercicios. 
+
+3. Inicia el tutorial/exercises ejecutando el siguiente comando al mismo nivel en el que se encuentra tu archivo bc.json: 
 
 ```sh
 $ npm i jest@24.8.0 -g
-$ bc run:exercises
+$ learnpack start
 ```
+
+Nota: Estos ejercicios tienen calificación automática pero un tanto rígida, te recomiendo ignorar los tests, considéralos como una recomendación o podrías frustrarte.
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/4GeeksAcademy/react-exercises/master/preview.gif">
