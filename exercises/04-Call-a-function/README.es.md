@@ -1,8 +1,8 @@
 # `04` Llamar a una función
 
-Las funciones son bloques de código que se guardan para ser (re)utilizados más tarde; ese fragmento específico de código tiene un propósito predefinido y realiza una tarea definida. Una función podría recibir algunos o ningún parámetro para poder ejecutarse y siempre debe retornar algo.
+Las `funciones` son **bloques de código** que se guardan para ser (re)utilizados más tarde; ese fragmento específico de código tiene un propósito predefinido y realiza una tarea definida. Una función podría recibir algunos o ningún parámetro para poder ejecutarse y siempre debe retornar algo.
 
-Por ejemplo, una función que calcula el área de un cuadrado sería algo como esto:
+Por ejemplo, una `función` que calcula el área de un cuadrado sería algo como esto:
 
 ```js
 function calculateArea(length, edge) {
@@ -10,11 +10,11 @@ function calculateArea(length, edge) {
 }
 ```
 
-Si deseas usar esa función para calcular el área de un cuadrado con
+Si deseas usar esa `función` para calcular el área de un cuadrado con
 
 ```js
 length = 3  // longitud
-edge = 6    // borde
+edge = 6    // lado
 ```
 
 Necesitas hacer algo como esto:
@@ -23,11 +23,11 @@ Necesitas hacer algo como esto:
 let squareArea = calculateArea(3,6);
 ```
 
-El valor de squareArea se establecerá en 18
+El valor de `squareArea` se establecerá en `18`.
 
-# 📝 Instrucciones:
+## 📝 Instrucciones:
 
-Crea una nueva variable llamada squareArea para cada nueva iteración de la función CalculateArea utilizando las dimensiones de la figura, por ejemplo, para la primera figura,
+1. Crea una nueva variable llamada `squareArea` para cada nueva iteración de la función `CalculateArea` utilizando las dimensiones de la figura, por ejemplo, para la primera figura,
 
 ```js
 let squareArea1 = calculateArea(3,6);
@@ -43,8 +43,8 @@ let squareArea2 = functionCall(x,y);
 
 
 
-# 💡 Sugerencia:
+## 💡 Sugerencia:
 
-- Llama a la función `calculateArea` 3 veces, una por cada cuadrado, pasando la longitud y el borde de cada cuadrado.
++ Llama a la función `calculateArea` 3 veces, una por cada cuadrado, pasando la longitud y el lado de cada cuadrado.
 
-- Haz clic aquí para obtener más información sobre las funciones: http://www.mathopenref.com/functionsprog.html
++ Haz clic aquí para obtener más información sobre las funciones: http://www.mathopenref.com/functionsprog.html

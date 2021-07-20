@@ -1,10 +1,10 @@
-# `03`¿Qué es una función (function)?
+# `03` ¿Qué es una función (function)?
 
-Auquí podrás encontrar un video de [5 min explicando q es una función](https://www.youtube.com/watch?v=N8ap4k_1QEQ).
+Auquí hay muy buen video de [5 min explicando que es una función](https://www.youtube.com/watch?v=N8ap4k_1QEQ).
 
-Puedes ver una función como un **fragmento de código** que puedes encapsular entre llaves para poder usarla varias veces.
+Puedes ver una función como un **fragmento de código** que puedes encapsular entre llaves (`{}`) para poder usarla varias veces.
 
-Por ejemplo: si queremos obtener la suma de dos números, podemos declarar una función llamada `sum` que devuelve la suma de number1 y number2:
+Por ejemplo: si queremos obtener la suma de dos números, podemos declarar una función llamada `sum` que devuelve la suma de las variables `number1` y `number2`:
 
 ```js
 function sum(number1,number2) {
@@ -12,7 +12,7 @@ function sum(number1,number2) {
 }
 ```
 
-Después de declarar la función, podemos usarla tantas veces como queramos, así:
+Después de declarar la `función`, podemos usarla tantas veces como queramos, así:
 
 ```js
 let total = sum(2,3);
@@ -22,4 +22,4 @@ let total3 = sum(2,3);
 
 # 📝 Instrucciones
 
-Calcula la suma entre **3445324** y **53454423** y asigna el resultado a una variable llamada `superduper`
+1. Calcula la suma entre **3445324** y **53454423** y asigna el resultado a una variable llamada `superduper`.
