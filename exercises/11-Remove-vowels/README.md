@@ -1,22 +1,28 @@
 # `11` Remove vowels
 
-Take aim and note
-Arrow functions allows a short syntax for writing function expressions.
+Take aim and note:
+
+**Arrow functions allows a short syntax for writing function expressions.**
+
 ```js
 const x = (x, y) => x * y;
 console.log(x(2,2));
 ```
 
-# 📝 Instructions:
+## 📝 Instructions:
 
-1. Create an arrow function called rapid it will take on string
-2. Loop the string and take out all vowels
-3. Capitalize the consonants
-4. Return the new string
+1. Create an arrow function called `rapid` it will take on string.
 
-# 💡 Hint
+2. Loop the string and take out all vowels.
 
-Implement these functions in your code:
+3. Capitalize the consonants.
+
+4. Return the new string.
+
+## 💡 Hint
+
++ Implement these functions in your code:
+
 ```js
 .toLowerCase()  .toUpperCase()
 ```
