@@ -1,17 +1,10 @@
 const rewire = require('rewire');
 const fs = require('fs');
 
-
-it('Did you return using the parameter with the correct SORTING method??', () => {
-   const regex = /return\s*\w+.sort\(\)/gm;
-   const fileContent = fs.readFileSync('./exercises/10-Array-Methods/app.js');
-    const match = regex.exec(fileContent);
-
-    expect(match).toBeTruthy();
+test('The function should sort the array and then return the array sorted.', () => {
+    const file = rewire("./app.js");
+    const sortNames = file.__get__('sortNames');
+    let names = ['John', 'Kenny', 'Tom', "Bob", 'Dilan'];
+    let sortedNames = ['Bob', 'Dilan', 'John', 'Kenny', 'Tom'];
+    expect(sortNames(names)).toEqual(sortedNames);
 });
-
-
-
-
-
-
