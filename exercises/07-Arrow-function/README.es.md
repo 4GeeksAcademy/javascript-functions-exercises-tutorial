@@ -1,6 +1,9 @@
 # `07` Función de flecha
 
-Una función **arrow** (o flecha) es **muy similar** a una función tradicional al principio, la diferencia más importante es el símbolo de flecha `=>` que va justo después de la declaración de los parámetros de la función: 
+Una función **arrow** (o de flecha) es **muy similar** a una función tradicional al principio, la diferencia más importante es el símbolo de flecha `=>` que va justo después de la declaración de los parámetros de la función: 
+
+An arrow function is **very similar** to the traditional `function` at first, the biggest difference is the arrow symbol `=>` that goes always after the function parameters:
+
 
 ```js
 const sum = (param1, param2) => {
