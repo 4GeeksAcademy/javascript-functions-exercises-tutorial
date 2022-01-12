@@ -21,7 +21,7 @@ The word `function` is a reserved word in javascript, this means it is only used
 
 Example names: `addTwoIntegers` , `convertAStringIntoAnInteger` , `changeTheWorldUsingFrontEndDevelopment`
 
-**Parameters:** you can define as many `parameters` as you like or may need must be inside the `{` `}`(curly brackets). The amount of `parameters` will depend on the operations done inside the function, for example if the function is adding two integers  (3 + 4) this means the function will need two `parameters` (one for each integer).
+**Parameters:** you can define as many parameters as you like or need inside the ()(parentheses). The amount of `parameters` will depend on the operations done inside the function, for example if the function is adding two integers  (3 + 4) this means the function will need two `parameters` (one for each integer).
 
 **Scope:** All the operations that the function will do needs to be inside the `{` `}` (curly brackets), anything outside won't be considered as part of the function, this is called the **scope**, and it could be local (inside the function) and global (outside of the function).
 

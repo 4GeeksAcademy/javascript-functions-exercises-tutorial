@@ -17,7 +17,7 @@ La palabra `function` es una palabra reservada en javascript, esto significa que
 
 Nombres de ejemplo: `addTwoIntegers` (sumaDosEnteros), `convertAStringIntoAnInteger` (convertirUnStringEnEntero),  `changeTheWorldUsingFrontEndDevelopment` (cambiaElMundoUsandoDesarrolloFrontEnd)
 
-**Parámetros:** puedes definir tantos `parámetros` como desees, más aún, si los necesitas. La cantidad de `parámetros` dependerá de las operaciones realizadas dentro de la función. Por ejemplo: si la función está sumando dos enteros (3 + 4), esto significa que la función necesitará dos `parámetros` (uno por cada entero).
+**Parámetros:** puedes definir tantos `parámetros` como desees dentro de los () (paréntesis). La cantidad de `parámetros` dependerá de las operaciones realizadas dentro de la función. Por ejemplo: si la función está sumando dos enteros (3 + 4), esto significa que la función necesitará dos `parámetros` (uno por cada entero).
 
 **Alcance:** Todas las operaciones que haga la función deben estar dentro de las `{` `}` (llaves). Cualquier cosa que esté fuera, no se considerará como parte de la función. Esto se llama  **alcance** (scope), y podría ser local (dentro de la función) y global (fuera de la función).
 

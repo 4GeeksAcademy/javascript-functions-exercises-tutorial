@@ -1,13 +1,13 @@
 
 const rapid = (myString) => {
     let consonants = [];
-    for(let position in myString){
-        if(['a','e','i','o','u'].includes(myString[position]) == false)
-            consonants.push(myString[position])
+    for(let letter of myString){
+        if(['a','e','i','o','u'].includes(letter) == false)
+            consonants.push(letter)
     }
     return consonants.join('');
-}
+};
 
-// From this line up Do not change code below
+// Work above this line; do not change code below
 let str = "John";
 console.log(rapid(str));
