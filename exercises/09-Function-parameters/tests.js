@@ -21,10 +21,6 @@ it("The function 'renderPerson' should return the expected output. Tesing with K
     expect(renderPerson('Katherine', '06/05/2004', 'green', 17, 'female')).toBe("Katherine is a 17 years old female born in 06/05/2004 with green eyes")
 });
 
-it("The function 'renderPerson' should receive five parameters", () => {
-    const regex = /\(\s*(\w+)\s*,\s*(\w+)\s*,\s*(\w+)\s*,\s*(\w+)\s*,\s*(\w+)\s*\)/gm
-    const match = regex.exec(fileContent);
-    expect(match).toBeTruthy();
 });
 
 it("Print the function 'renderPerson' in console to see the result" , function () {
