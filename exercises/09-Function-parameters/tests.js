@@ -21,8 +21,6 @@ it("The function 'renderPerson' should return the expected output. Tesing with K
     expect(renderPerson('Katherine', '06/05/2004', 'green', 17, 'female')).toBe("Katherine is a 17 years old female born in 06/05/2004 with green eyes")
 });
 
-});
-
 it("Print the function 'renderPerson' in console to see the result" , function () {
     require("./app.js");
     expect(console.log.mock.calls.length).toBe(1)
