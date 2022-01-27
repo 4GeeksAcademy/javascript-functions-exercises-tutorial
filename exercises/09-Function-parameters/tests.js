@@ -1,25 +1,36 @@
 const rewire = require('rewire');
 const fs = require('fs');
-
-
-
-it('Did you create a function named "renderPerson" that expects five parameters?', () => {
-
-    const regex = /function\s*renderPerson\s*\(\s*(\w+)\s*,\s*(\w+)\s*,\s*(\w+)\s*,\s*(\w+)\s*,\s*(\w+)\s*\)/gm;
-    const fileContent = fs.readFileSync('./exercises/09-Function-parameters/app.js');
-    const match = regex.exec(fileContent);
-
-     expect(match).toBeTruthy();
-
-});
+const path = require('path');
 global.console.log = console.log = jest.fn((text) => null);
+const fileContent = fs.readFileSync(path.resolve(__dirname, './app.js'), 'utf8');
+const renderPerson = rewire('./app.js').__get__('renderPerson');
 
-it('Did you use console.log?', function () {
+it("The function 'renderPerson' must exist" , function () {
+    expect(renderPerson).toBeTruthy();
+});
+
+it("The function 'renderPerson' should return something" , function () {
+    expect(renderPerson()).toBeTruthy();
+});
+
+it("The function 'renderPerson' should return the expected output. Tesing with Bob" , function () {
+    expect(renderPerson('Bob', '05/22/1983', 'green', 23, 'male')).toBe("Bob is a 23 years old male born in 05/22/1983 with green eyes")
+});
+
+it("The function 'renderPerson' should return the expected output. Tesing with Katherine" , function () {
+    expect(renderPerson('Katherine', '06/05/2004', 'green', 17, 'female')).toBe("Katherine is a 17 years old female born in 06/05/2004 with green eyes")
+});
+
+it("The function 'renderPerson' should receive five parameters", () => {
+    const regex = /\(\s*(\w+)\s*,\s*(\w+)\s*,\s*(\w+)\s*,\s*(\w+)\s*,\s*(\w+)\s*\)/gm
+    const match = regex.exec(fileContent);
+    expect(match).toBeTruthy();
+});
+
+it("Print the function 'renderPerson' in console to see the result" , function () {
     require("./app.js");
-    expect(console.log.mock.calls.length).toBe(1);
+    expect(console.log.mock.calls.length).toBe(1)
+    expect(console.log).toHaveBeenCalledWith("Bob is a 23 years old male born in 05/22/1983 with green eyes");
 });
 
-it('Did you return the parameters in the correct concatenation?', () => {
-   expect(console.log).toHaveBeenCalledWith("Bob is a 23 years old male born in 05/22/1983 with green eyes");
-});
 
