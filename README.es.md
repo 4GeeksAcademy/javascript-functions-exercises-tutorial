@@ -14,7 +14,7 @@
 2. [Looping con Javascript](https://github.com/4GeeksAcademy/javascript-arrays-exercises-tutorial) 
 3. [Funciones de Javascript ](https://github.com/4GeeksAcademy/javascript-functions-exercises-tutorial) ← estas aquí 🔥
 
-¡Te necesitamos! Estos ejercicios se crean y mantienen  con colaboradores como tú. Si encuentra salgún error o falta de ortografía, contribuye y/o infórmanos.
+¡Te necesitamos! Estos ejercicios se crean y mantienen con colaboradores como tú. Si encuentra salgún error o falta de ortografía, contribuye y/o infórmanos.
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/4GeeksAcademy/react-exercises/master/preview.gif">
