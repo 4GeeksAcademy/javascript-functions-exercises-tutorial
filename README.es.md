@@ -1,4 +1,4 @@
-# Tutorial & Ejercicios de Looping en Javascript 
+#  Practica Funciones en Javascript 
 
 <a href="https://www.4geeksacademy.co"><img height="280" align="right" src="https://github.com/4GeeksAcademy/javascript-arrays-exercises-tutorial/blob/master/badge-loop.png"></a>
 
@@ -8,12 +8,11 @@
 [![build by developers](https://img.shields.io/badge/build_by-Developers-blue)](https://breatheco.de)
 [![build by developers](https://img.shields.io/twitter/follow/4geeksacademy?style=social&logo=twitter)](https://twitter.com/4geeksacademy)
 
-
-¡Docenas de ejercicios de loops para mejorar tus habilidades de loop con for, forEach, mapear, filtrar, hacer un loop a un diccionario, hacer un loop en  arrays bidimensionales, agregar condiciones a los loops, encontrar un elemento y más!
+#### Antes de empezar...Algunos tutoriales realcionados
 
 1. [Javascript para Principiantes](https://github.com/4GeeksAcademy/javascript-beginner-exercises-tutorial)
-2. [Looping con Javascript](https://github.com/4GeeksAcademy/javascript-arrays-exercises-tutorial) ← estas aquí 🔥
-3. [Funciones de Javascript ](https://github.com/4GeeksAcademy/javascript-functions-exercises-tutorial)
+2. [Looping con Javascript](https://github.com/4GeeksAcademy/javascript-arrays-exercises-tutorial) 
+3. [Funciones de Javascript ](https://github.com/4GeeksAcademy/javascript-functions-exercises-tutorial) ← estas aquí 🔥
 
 ¡Te necesitamos! Estos ejercicios se crean y mantienen  con colaboradores como tú. Si encuentra salgún error o falta de ortografía, contribuye y/o infórmanos.
 
@@ -21,37 +20,40 @@
   <img src="https://raw.githubusercontent.com/4GeeksAcademy/react-exercises/master/preview.gif">
 </p>
 
-## Instalación en un clic
+## Instalacion en un clic:
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io#https://github.com/4GeeksAcademy/javascript-arrays-exercises-tutorial.git)
+[![Ábrelo en Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io#https://github.com/4GeeksAcademy/javascript-functions-exercises.git)
 
+## Instalación local
 
-## Local Installation
-
-1. Instala learnpack, el package manager para los tutoriales interactivos y el html compiler plugin para learnpack, asegúrate también de tener node.js 14+:
+1. Instala learnpack, el package manager para tutoriales y el plugin compilador de html para learnpack, asegúrate de tener instalado node.js 14+:
 
 ```
 $ npm i learnpack -g
 $ learnpack plugins:install learnpack-node
 ```
 
-2. Descarga este ejercicio en particular usando learnpack y `cd` para acceder a la carpeta:
+2. Descarga este ejercicio en particular usando learnpack y `cd` dentro de la carpeta:
 
 ```
-$ learnpack download javascript-arrays-exercises
-$ cd javascript-arrays-exercises
+$ learnpack download javascript-functions-exercises-tutorial
+$ cd javascript-functions-exercises-tutorial
 ```
 
-Nota: Cuando termines de descargar, encontrarás la carpeta "exercises" que contiene los ejercicios (`cd`).
+Nota: Una vez que termines de descargarlo, encontrarás una carpeta llamada "exercises" que contiene los ejercicios. 
 
-3. Iniciliza el tutorial/ejercicios ejecutando el siguiente comando en el mismo nivel donde se encuentra su archivo bc.json:
+3. Inicializa el tutorial/exercises ejecutando el siguiente comando al mismo nivel en el que se encuentra tu archivo bc.json: 
 
 ```sh
 $ npm i jest@24.8.0 -g
 $ learnpack start
-
 ```
-Nota: Los ejercicios son autograduados pero son bastante rígidos y estrictos, mi recomendación es que ignores los tests y los uses solo como una recomendación sino pueden frustrarte.
+
+Nota: Estos ejercicios tienen calificación automática pero es un tanto rígida, te recomiendo ignorar los tests, considéralos como una recomendación o podrías frustrarte.
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/4GeeksAcademy/react-exercises/master/preview.gif">
+</p>
 
 ## ¿Cómo están organizados los ejercicios?
 
@@ -69,5 +71,7 @@ Gracias a estas personas maravillosas ([emoji key](https://github.com/kentcdodds
 1. [Alejandro Sanchez (alesanchezr)](https://github.com/alesanchezr), contribución: (programador) 💻 (idea) 🤔, (build-tests) ⚠️ , (pull-request-review) 🤓 (build-tutorial) ✅ (documentación) 📖
 
 2. [Paolo (plucodev)](https://github.com/plucodev), contribución: (bug reports) 🐛, (programador), (traducción) 🌎
+
+3. [Marco Gómez (marcogonzalo)](https://github.com/marcogonzalo), contribution: (bug reports) 🐛, (translation) 🌎
 
 Este proyecto sigue la especificación [all-contributors](https://github.com/kentcdodds/all-contributors). ¡Todas las contribuciones son bienvenidas!
