@@ -8,11 +8,13 @@
 [![build by developers](https://img.shields.io/badge/build_by-Developers-blue)](https://breatheco.de)
 [![build by developers](https://img.shields.io/twitter/follow/4geeksacademy?style=social&logo=twitter)](https://twitter.com/4geeksacademy)
 
-#### Before you start... Some relatives tutorials:
-
-1. [Javascript for Beginners](https://github.com/4GeeksAcademy/javascript-beginner-exercises-tutorial)
-2. [Looping with Javascript](https://github.com/4GeeksAcademy/javascript-arrays-exercises-tutorial)  
-3. [Javascript Functions](https://github.com/4GeeksAcademy/javascript-functions-exercises-tutorial) ← you are here now 🔥
+## Before you start...some related tutorials:
+<ol>
+  <li><a href="https://github.com/4GeeksAcademy/javascript-beginner-exercises-tutorial">Javascript for Beginners</a></li>
+  <li><a href="https://github.com/4GeeksAcademy/javascript-arrays-exercises-tutorial">Looping with Javascript</a></li>
+  <li><a href="https://github.com/4GeeksAcademy/javascript-functions-exercises-tutorial">Javascript Functions</a>← You are here</li>
+  <li><a href="(https://github.com/4GeeksAcademy/master-javascript-programming-exercises">Master Javascripts</a></li>
+</ol>
 
 These exercises are intent to be built by collaboration, we need you! If you find any bugs or misspells please contribute and report them.
 
@@ -26,7 +28,7 @@ These exercises are intent to be built by collaboration, we need you! If you fin
 
 ## Local Installation
 
-1. Install learnpack, the package manager for learning tutorials and the html compiler plugin for learnpack, make sure you also have node.js 12+:
+1. Install learnpack, the package manager for learning tutorials and the html compiler plugin for learnpack, make sure you also have node.js 14+:
 
 ```
 $ npm i learnpack -g

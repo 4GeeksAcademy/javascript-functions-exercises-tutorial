@@ -8,11 +8,13 @@
 [![build by developers](https://img.shields.io/badge/build_by-Developers-blue)](https://breatheco.de)
 [![build by developers](https://img.shields.io/twitter/follow/4geeksacademy?style=social&logo=twitter)](https://twitter.com/4geeksacademy)
 
-#### Antes de empezar...Algunos tutoriales realcionados
-
-1. [Javascript para Principiantes](https://github.com/4GeeksAcademy/javascript-beginner-exercises-tutorial)
-2. [Looping con Javascript](https://github.com/4GeeksAcademy/javascript-arrays-exercises-tutorial) 
-3. [Funciones de Javascript ](https://github.com/4GeeksAcademy/javascript-functions-exercises-tutorial) ← estas aquí 🔥
+#### Antes de empezar...Algunos tutoriales relacionados
+<ol>
+  <li><a href="https://github.com/4GeeksAcademy/javascript-beginner-exercises-tutorial">Javascript para Principiantes</a></li>
+  <li><a href="https://github.com/4GeeksAcademy/javascript-arrays-exercises-tutorial">Looping con Javascript</a></li>
+  <li><a href="https://github.com/4GeeksAcademy/javascript-functions-exercises-tutorial">Funciones de Javascript </a>← Estás aquí</li>
+  <li><a href="(https://github.com/4GeeksAcademy/master-javascript-programming-exercises">Master Javascripts</a></li>
+</ol>
 
 ¡Te necesitamos! Estos ejercicios se crean y mantienen con colaboradores como tú. Si encuentra salgún error o falta de ortografía, contribuye y/o infórmanos.
 
