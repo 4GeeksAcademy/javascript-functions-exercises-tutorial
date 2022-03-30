@@ -7,19 +7,28 @@
 ![last commit](https://img.shields.io/github/last-commit/4geeksacademy/javascript-arrays-exercises-tutorial)
 [![build by developers](https://img.shields.io/badge/build_by-Developers-blue)](https://breatheco.de)
 [![build by developers](https://img.shields.io/twitter/follow/4geeksacademy?style=social&logo=twitter)](https://twitter.com/4geeksacademy)
-    
 
-These exercises are intent to be built by collaboration, we need you!
-If you find any bugs or misspells please contribute and report them.
+## Before you start...some related tutorials:
+<ol>
+  <li><a href="https://github.com/4GeeksAcademy/javascript-beginner-exercises-tutorial">Javascript for Beginners</a></li>
+  <li><a href="https://github.com/4GeeksAcademy/javascript-arrays-exercises-tutorial">Looping with Javascript</a></li>
+  <li><a href="https://github.com/4GeeksAcademy/javascript-functions-exercises-tutorial">Javascript Functions</a>← You are here</li>
+  <li><a href="(https://github.com/4GeeksAcademy/master-javascript-programming-exercises">Master Javascripts</a></li>
+</ol>
 
-## Start practicing right now in gitpod:
+These exercises are intent to be built by collaboration, we need you! If you find any bugs or misspells please contribute and report them.
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/4GeeksAcademy/react-exercises/master/preview.gif">
+</p>
+
+## Instalación en un clic:
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io#https://github.com/4GeeksAcademy/javascript-functions-exercises.git)
 
-
 ## Local Installation
 
-1. Install learnpack, the package manager for learning tutorials and the html compiler plugin for learnpack, make sure you also have node.js 12+:
+1. Install learnpack, the package manager for learning tutorials and the html compiler plugin for learnpack, make sure you also have node.js 14+:
 
 ```
 $ npm i learnpack -g
@@ -60,11 +69,11 @@ Each exercise is a small react application containing the following files:
 
 Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds/all-contributors#emoji-key)):
 
-1. [Alejandro Sanchez (alesanchezr)](https://github.com/alesanchezr), contribution: (coder) :computer: (idea) 🤔, (build-tests) :warning:, (pull-request-review) :eyes: (build-tutorial) :white_check_mark: (documentation) :book:
-2. [Paolo Lucano (plucodev)](https://github.com/plucodev), contribution: (bug reports) :bug:, (translation) :earth_americas:, (build-tests) :warning:
-3. [Marco Gómez (marcogonzalo)](https://github.com/marcogonzalo), contribution: (bug reports) :bug:, (translation) :earth_africa:
+1. [Alejandro Sanchez (alesanchezr)](https://github.com/alesanchezr), contribution: (coder) 💻  (idea) 🤔, (build-tests) ⚠️ , (pull-request-review) 👀 (build-tutorial) ✅ (documentation) 📖
+
+2. [Paolo (plucodev)](https://github.com/plucodev), contribution: (bug reports) 🐛, contribution: (coder), (translation) 🌎
+
+3. [Marco Gómez (marcogonzalo)](https://github.com/marcogonzalo), contribution: (bug reports) :🐛, (translation) 🌎
 
 
-This project follows the
-[all-contributors](https://github.com/kentcdodds/all-contributors)
-specification. Contributions of any kind are welcome!
+This project follows the[all-contributors](https://github.com/kentcdodds/all-contributors) specification.Contributions of any kind are welcome!

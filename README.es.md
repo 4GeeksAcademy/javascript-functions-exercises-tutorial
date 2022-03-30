@@ -1,22 +1,34 @@
+#  Practica Funciones en Javascript 
+
+<a href="https://www.4geeksacademy.co"><img height="280" align="right" src="https://github.com/4GeeksAcademy/javascript-arrays-exercises-tutorial/blob/master/badge-loop.png"></a>
+
+> Por [@alesanchezr](https://twitter.com/alesanchezr) y [otros colaboradores](https://github.com/4GeeksAcademy/javascript-arrays-exercises-tutorial/graphs/contributors) at [4Geeks Academy](https://4geeksacademy.co/)
+
+![last commit](https://img.shields.io/github/last-commit/4geeksacademy/javascript-arrays-exercises-tutorial)
+[![build by developers](https://img.shields.io/badge/build_by-Developers-blue)](https://breatheco.de)
+[![build by developers](https://img.shields.io/twitter/follow/4geeksacademy?style=social&logo=twitter)](https://twitter.com/4geeksacademy)
+
+#### Antes de empezar...Algunos tutoriales relacionados
+<ol>
+  <li><a href="https://github.com/4GeeksAcademy/javascript-beginner-exercises-tutorial">Javascript para Principiantes</a></li>
+  <li><a href="https://github.com/4GeeksAcademy/javascript-arrays-exercises-tutorial">Looping con Javascript</a></li>
+  <li><a href="https://github.com/4GeeksAcademy/javascript-functions-exercises-tutorial">Funciones de Javascript </a>← Estás aquí</li>
+  <li><a href="(https://github.com/4GeeksAcademy/master-javascript-programming-exercises">Master Javascripts</a></li>
+</ol>
+
+¡Te necesitamos! Estos ejercicios se crean y mantienen con colaboradores como tú. Si encuentra salgún error o falta de ortografía, contribuye y/o infórmanos.
+
 <p align="center">
-  <img src="https://assets.breatheco.de/apis/img/images.php?blob&random&cat=icon&tags=4geeks,128">
+  <img src="https://raw.githubusercontent.com/4GeeksAcademy/react-exercises/master/preview.gif">
 </p>
 
-<p>
-    <h2 align="center"> Practica Funciones en Javascript </h2>
-</p>
-
-Estos ejercicios son producto de una construcción colaborativa, ¡Te necesitamos!
-Si encuentras algún error de código o de escritura, por favor, contribuy y repórtalo.
-
-## Comienza practicando ahora mismo en Gitpod:
+## Instalacion en un clic:
 
 [![Ábrelo en Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io#https://github.com/4GeeksAcademy/javascript-functions-exercises.git)
 
-
 ## Instalación local
 
-1. Instala learnpack, el package manager para tutoriales y el plugin compilador de html para learnpack, asegúrate de tener instalado node.js 12+:
+1. Instala learnpack, el package manager para tutoriales y el plugin compilador de html para learnpack, asegúrate de tener instalado node.js 14+:
 
 ```
 $ npm i learnpack -g
@@ -32,14 +44,14 @@ $ cd javascript-functions-exercises-tutorial
 
 Nota: Una vez que termines de descargarlo, encontrarás una carpeta llamada "exercises" que contiene los ejercicios. 
 
-3. Inicia el tutorial/exercises ejecutando el siguiente comando al mismo nivel en el que se encuentra tu archivo bc.json: 
+3. Inicializa el tutorial/exercises ejecutando el siguiente comando al mismo nivel en el que se encuentra tu archivo bc.json: 
 
 ```sh
 $ npm i jest@24.8.0 -g
 $ learnpack start
 ```
 
-Nota: Estos ejercicios tienen calificación automática pero un tanto rígida, te recomiendo ignorar los tests, considéralos como una recomendación o podrías frustrarte.
+Nota: Estos ejercicios tienen calificación automática pero es un tanto rígida, te recomiendo ignorar los tests, considéralos como una recomendación o podrías frustrarte.
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/4GeeksAcademy/react-exercises/master/preview.gif">
@@ -47,20 +59,21 @@ Nota: Estos ejercicios tienen calificación automática pero un tanto rígida, t
 
 ## ¿Cómo están organizados los ejercicios?
 
-Cada ejercicio es un pequeño código en JavaScript que contiene los siguientes archivos:
+Cada ejercicio es una pequeña aplicación de react que contiene los siguientes archivos:
+|    |    |
+|:---|:---|
+| **app.js** | Representa el archivo javascript de entrada que ejecutará la computadora ||
+| **README.md** | Contiene las instrucciones de ejercicio |
+| **test.js** | Contiene el script del test para el ejercicio (no es necesario que abras este archivo) |
 
-1. **app.js:** representa el punto de entrada al ejercicio.
-2. **README.md:** contiene las instrucciones del ejercicio.
-3. **test.js:** no tienes que abrir este archivo. Contiene los scripts de pruebas del ejercicio.
+## Colaboradores
+ 
+Gracias a estas personas maravillosas ([emoji key](https://github.com/kentcdodds/all-contributors#emoji-key)):
 
-## Contribuyentes
+1. [Alejandro Sanchez (alesanchezr)](https://github.com/alesanchezr), contribución: (programador) 💻 (idea) 🤔, (build-tests) ⚠️ , (pull-request-review) 🤓 (build-tutorial) ✅ (documentación) 📖
 
-Nuestro agradecimiento para estas maravillosas personas ([emoji key](https://github.com/kentcdodds/all-contributors#emoji-key)):
+2. [Paolo (plucodev)](https://github.com/plucodev), contribución: (bug reports) 🐛, (programador), (traducción) 🌎
 
-1. [Alejandro Sanchez (alesanchezr)](https://github.com/alesanchezr), contribución: (coder) :computer: (idea) 🤔, (build-tests) :warning:, (pull-request-review) :eyes: (build-tutorial) :white_check_mark: (documentation) :book:
-2. [Paolo Lucano (plucodev)](https://github.com/plucodev), contribución: (bug reports) :bug:, (translation) :earth_americas:, (build-tests) :warning:
-3. [Marco Gómez (marcogonzalo)](https://github.com/marcogonzalo), contribución: (bug reports) :bug:, (traducción) :earth_africa:
+3. [Marco Gómez (marcogonzalo)](https://github.com/marcogonzalo), contribution: (bug reports) 🐛, (translation) 🌎
 
-Este proyecto sigue las especificaciones
-[all-contributors](https://github.com/kentcdodds/all-contributors). 
-¡Todas las contribuciones son bienvenidas!
+Este proyecto sigue la especificación [all-contributors](https://github.com/kentcdodds/all-contributors). ¡Todas las contribuciones son bienvenidas!
