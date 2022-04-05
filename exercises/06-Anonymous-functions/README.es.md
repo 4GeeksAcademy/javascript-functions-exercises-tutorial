@@ -12,7 +12,8 @@ Probablemente te estarás preguntando:
 
 ¿Cómo llamo a esta función si no tiene un nombre?
 
-Las `funciones anónimas` deben almacenarse dentro de una variable para poder usarlas. Por ejemplo:
+Las `funciones anónimas` deben almacenarse dentro de una variable para poder usarlas. 
+Por ejemplo:
 
 ```js
 var myFirstVar = function(param1, param2)

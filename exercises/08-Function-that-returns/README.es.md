@@ -1,6 +1,7 @@
 # `08` Funciones que devuelven
 
-Es una muy buena práctica que todas las funciones retornen algo, incluso si es `null`(nulo). Si tus funciones retornan algo, puedes crear algoritmos que utilicen varias funciones al mismo tiempo. 
+Es una muy buena práctica que todas las funciones retornen algo, incluso si es `null`(nulo)
+Si tus funciones retornan algo, puedes crear algoritmos que utilicen varias funciones al mismo tiempo. 
 
 `dollarToEuro`: que calcula el valor en euros de un valor dado en dólares.
 `euroToYen`: calcula el valor en yenes de un valor dado en euros.
@@ -9,7 +10,7 @@ Es una muy buena práctica que todas las funciones retornen algo, incluso si es 
 
 En este caso particular tenemos dos funciones disponibles:
 
- + `dollarToEuro`: calcula el valor en euros de un monto dólares dado.
++ `dollarToEuro`: calcula el valor en euros de un monto dólares dado.
 
 + `euroToYen`: calcula el valor en yenes de un monto de euros dado.
 

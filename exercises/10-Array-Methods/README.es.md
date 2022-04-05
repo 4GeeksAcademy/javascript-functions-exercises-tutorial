@@ -8,6 +8,6 @@
 
 + Cada arreglo o array viene con funciones predeterminadas que permiten ordenarlos, ¡úsalas dentro de tu función!
 
-+ ¿Atrapado en ordenando ? Lee la página de Mozilla sobre ordenar arreglos:
++ ¿Atrapado en ordenando? Lee la página de Mozilla sobre ordenar arreglos:
 
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort

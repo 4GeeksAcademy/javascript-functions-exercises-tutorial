@@ -22,7 +22,7 @@ Gracias a estas maravillosas personas ([emoji key](https://github.com/kentcdodds
 2. [Luis Rivera (luis846)](https://github.com/Luis846), contribución: (coder) :computer:, (build-tests) :warning:
 3. [Marco Gómez (marcogonzalo)](https://github.com/marcogonzalo), contribución: (bug reports) :bug:, (traducción) :earth_africa:
 
-Este proyecto sigue las especificaciones
+Este proyecto sigue las especificaciones:
 [all-contributors](https://github.com/kentcdodds/all-contributors). 
 
 ¡Todas las contribuciones son bienvenidas!

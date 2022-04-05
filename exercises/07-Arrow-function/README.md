@@ -8,9 +8,11 @@ const sum = (param1, param2) => {
 }
 ```
 
-See the arrow? instead of `function sum(){` it's `const sum = () => {`. The rest of the function remains the same.
+See the arrow `=>`? 
 
-### But why having arrow functions in the first place?
+Instead of `function sum(){` it's `const sum = () => {`. The rest of the function remains the same.
+
+### But, why having arrow functions in the first place?
 
 - They are shorter and faster to write.
 

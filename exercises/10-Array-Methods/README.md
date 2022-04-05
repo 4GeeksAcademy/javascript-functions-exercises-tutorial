@@ -6,7 +6,8 @@
 
 ## 💡 Hint
 
-+ Every array comes with default functions that allows sorting- use it inside your function!
++ Every array comes with default functions that allows sorting,
+ use it inside your function!
 
 + Stuck on sorting? Read Mozilla's page on sorting arrays:
 

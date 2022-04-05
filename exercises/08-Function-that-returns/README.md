@@ -1,6 +1,6 @@
 # `08` Functions that return
 
-Is a very good practice that all functions return something, even if it is `null`; if your functions return something you can then create algorithms that use several functions at the same time. 
+Is a very good practice that all functions return something, even if it is `null`. If your functions return something you can then create algorithms that use several functions at the same time. 
 
 ## 📝 Instructions:
 

@@ -1,6 +1,6 @@
 # `03` ¿Qué es una función (function)?
 
-Auquí hay muy buen video de [5 min explicando que es una función](https://www.youtube.com/watch?v=N8ap4k_1QEQ).
+Aquí hay un muy buen video de [5 min explicando que es una función](https://www.youtube.com/watch?v=N8ap4k_1QEQ).
 
 Puedes ver una función como un **fragmento de código** que puedes encapsular entre llaves (`{}`) para poder usarla varias veces.
 
