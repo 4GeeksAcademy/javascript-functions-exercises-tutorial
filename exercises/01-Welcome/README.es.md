@@ -24,4 +24,5 @@ Gracias a estas maravillosas personas ([emoji key](https://github.com/kentcdodds
 
 Este proyecto sigue las especificaciones
 [all-contributors](https://github.com/kentcdodds/all-contributors). 
+
 ¡Todas las contribuciones son bienvenidas!
