@@ -1,7 +1,7 @@
 ---
 tutorial: "https://youtu.be/bvRmj3Tj5XU"
 ---
-# `04` Calling a function
+# `03` Calling a Function
 
 `Functions` are **blocks of code** that you save to be (re)used later; that specific fragment of code has a predefined purpose and it does a defined task. A `function` could receive some or no parameters to be able to execute and must always return something.
 
@@ -27,7 +27,6 @@ let squareArea = calculateArea(3,6);
 ```
 The value of `squareArea` will be set to `18`.
 
-
 ## 📝 Instructions:
 
 1. Create a new variable named `squareArea` for each new iteration of the `calculateArea` function using the figure dimensions, for example for the first figure,
@@ -43,7 +42,6 @@ let squareArea2 = functionCall(x,y);
 ```
 
 ![img](http://i.imgur.com/VyoJRAL.png)
-
 
 ## 💡 Hint:
 

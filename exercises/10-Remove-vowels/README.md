@@ -1,6 +1,6 @@
 # `11` Remove vowels
 
-Take aim and note:
+Take note:
 
 **Arrow functions allows a short syntax for writing function expressions.**
 
@@ -19,11 +19,11 @@ console.log(x(2,2));
 
 4. Return the new string.
 
-## 💡 Hint
+## 💡 Hint:
 
-+ Implement these functions in your code:
++ Implement these functions in your code to get the correct return:
 
 ```js
 .toLowerCase()  .toUpperCase()
 ```
-to get the correct return.
+

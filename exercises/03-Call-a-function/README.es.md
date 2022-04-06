@@ -1,4 +1,4 @@
-# `04` Llamar a una función
+# `03` Call a Function
 
 Las `funciones` son **bloques de código** que se guardan para ser (re)utilizados más tarde; ese fragmento específico de código tiene un propósito predefinido y realiza una tarea definida. Una función podría recibir algunos o ningún parámetro para poder ejecutarse y siempre debe retornar algo.
 
@@ -27,21 +27,19 @@ El valor de `squareArea` se establecerá en `18`.
 
 ## 📝 Instrucciones:
 
-1. Crea una nueva variable llamada `squareArea` para cada nueva iteración de la función `CalculateArea` utilizando las dimensiones de la figura, por ejemplo, para la primera figura,
+1. Crea una nueva variable llamada `squareArea` para cada nueva iteración de la función `CalculateArea` utilizando las dimensiones de la figura, por ejemplo, para la primera figura:
 
 ```js
 let squareArea1 = calculateArea(3,6);
 ```
 
-Para la segunda figura,
+Para la segunda figura:
 
 ```js
 let squareArea2 = functionCall(x,y);
 ```
 
 ![img](http://i.imgur.com/VyoJRAL.png)
-
-
 
 ## 💡 Sugerencia:
 

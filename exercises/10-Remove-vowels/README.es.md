@@ -1,6 +1,6 @@
-# `11` Elimina las vocales
+# `10` Remove Vowels
 
-Apunta y toma nota: 
+Toma nota: 
 
 **Las funciones de flecha permiten una sintaxis corta para escribir expresiones de funciones.**
 
@@ -19,11 +19,11 @@ console.log(x(2,2));
 
 4. Devuelve el nuevo string.
 
-## 💡 Pista
+## 💡 Pista:
 
-+ Implementa estas funciones en tu código:
++ Implementa estas funciones en tu código para retornar el resultado correcto:
 
 ```js
 .toLowerCase()  .toUpperCase()
 ```
-para retornar el resultado correcto.
+

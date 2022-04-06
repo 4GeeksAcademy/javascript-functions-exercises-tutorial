@@ -1,6 +1,6 @@
 # `06` Arrow Function
 
-An arrow function is **very similar** to the traditional `function` at first, the biggest difference is the arrow symbol `=>` that goes always after the function parameters:
+An **arrow** function is **very similar** to the traditional `function` at first, the biggest difference is the arrow symbol `=>` that goes always after the function parameters:
 
 ```js
 const sum = (param1, param2) => {
@@ -22,6 +22,6 @@ Instead of `function sum(){` it's `const sum = () => {`. The rest of the functio
 
 - Arrows functions behave like any other function in any other language, traditional functions don't.
  
-## 📝 Instructions
+## 📝 Instructions:
 
 1. Rewrite the syntax of the current function to make it an arrow function.

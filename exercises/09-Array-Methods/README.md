@@ -1,13 +1,13 @@
-# `10` Array Methods
+# `09` Array Methods
 
 ## 📝 Instructions:
 
 1. Write a function called `sortNames` that, given an array of names, returns them in alphabetical order.
 
-## 💡 Hint
+## 💡 Hint:
 
 + Every array comes with default functions that allows sorting,
- use it inside your function!
+ use them inside your function!
 
 + Stuck on sorting? Read Mozilla's page on sorting arrays:
 

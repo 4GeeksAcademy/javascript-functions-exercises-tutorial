@@ -8,7 +8,7 @@ const sum = (param1, param2) => {
 }
 ```
 
-¿ Ves la flecha `=>`?
+¿Ves la flecha `=>`?
 
 En lugar de `function sum(){` debemos colocar `const sum = () => {`, el resto de la sintáxis de la función se mantiene igual.
 
@@ -22,6 +22,6 @@ En lugar de `function sum(){` debemos colocar `const sum = () => {`, el resto de
 
 - Las funciones de flecha se comportan como las funciones en cualquier otro lenguaje, las functiones tradicionales no.
 
-## 📝 Instructions
+## 📝 Instructions:
 
 1. Cambia la sintaxis de la función `multy` para que sea de tipo flecha (arrow) y no una función tradicional.

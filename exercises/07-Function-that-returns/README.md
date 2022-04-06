@@ -14,7 +14,7 @@ In this particular case we have two functions available:
 
 1. Using the two functions available, calculate the value of 137 dollars in yen and print it on the console.
 
-## 💡 Hint
+## 💡 Hint:
 
 Working backwards:
 

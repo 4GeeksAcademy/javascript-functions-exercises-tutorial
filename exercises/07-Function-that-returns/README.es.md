@@ -14,7 +14,7 @@ En este caso particular tenemos dos funciones disponibles:
 
 1. Usando las dos funciones disponibles, calcula el valor de 137 dólares en yenes e imprímelo en la consola.
 
-## 💡 Pista
+## 💡 Pista:
 
 Trabajando al revés:
 

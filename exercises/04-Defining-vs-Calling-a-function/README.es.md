@@ -1,4 +1,4 @@
-# `05` Definir vs llamar a una función
+# `04` Defining VS Calling a Function
 
 Las `funciones` solo existen si tu u otra persona las define ... es la única forma en que el lenguaje compilador/intérprete sabe que existen, por lo tanto, puede ejecutarlas cuando las llamas.
 
@@ -15,7 +15,7 @@ La palabra `function` es una palabra reservada en javascript, esto significa que
 
 **El nombre** de la `función` podría ser lo que quieras. Consejo: usa un nombre descriptivo (no intentes ahorrar palabras, usa tantas como necesites) de esta manera entenderás lo que hace la `función` -y lo que devuelve-.
 
-Nombres de ejemplo: `addTwoIntegers` (sumaDosEnteros), `convertAStringIntoAnInteger` (convertirUnStringEnEntero),  `changeTheWorldUsingFrontEndDevelopment` (cambiaElMundoUsandoDesarrolloFrontEnd)
+Nombres de ejemplo: `addTwoIntegers` (sumaDosEnteros), `convertAStringIntoAnInteger` (convertirUnStringEnEntero),  `changeTheWorldUsingFrontEndDevelopment` (cambiaElMundoUsandoDesarrolloFrontEnd).
 
 **Parámetros:** puedes definir tantos `parámetros` como desees dentro de los () (paréntesis). La cantidad de `parámetros` dependerá de las operaciones realizadas dentro de la función. Por ejemplo: si la función está sumando dos enteros (3 + 4), esto significa que la función necesitará dos `parámetros` (uno por cada entero).
 

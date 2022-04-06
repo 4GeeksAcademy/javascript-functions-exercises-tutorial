@@ -8,9 +8,7 @@ function(param1, param2) {
 }
 ```
 
-¿Ves cómo le falta un nombre?
-
-Probablemente te estarás preguntando: 
+¿Ves cómo le falta un nombre? Probablemente te estarás preguntando: 
 
 ¿Cómo llamo a esta función si no tiene un nombre?
 
