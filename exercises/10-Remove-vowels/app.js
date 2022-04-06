@@ -1,4 +1,3 @@
-
 const rapid = (myString) => {
     let consonants = [];
     for(let letter of myString){

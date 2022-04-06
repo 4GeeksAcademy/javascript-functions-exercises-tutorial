@@ -1,4 +1,4 @@
-# `07` Arrow function
+# `06` Arrow Function
 
 An arrow function is **very similar** to the traditional `function` at first, the biggest difference is the arrow symbol `=>` that goes always after the function parameters:
 
@@ -8,7 +8,7 @@ const sum = (param1, param2) => {
 }
 ```
 
-See the arrow `=>`? 
+Do you see the arrow `=>`? 
 
 Instead of `function sum(){` it's `const sum = () => {`. The rest of the function remains the same.
 
@@ -20,7 +20,7 @@ Instead of `function sum(){` it's `const sum = () => {`. The rest of the functio
 
 - Arrow functions came to fix a scope problem that normal functions have, which requires "binding" especially when working with React. Arrow functions don't require `.bind()`. You can read more about it here: https://stackoverflow.com/questions/52979915/why-we-dont-need-to-bind-the-arrow-function-in-react  
 
- - Arrows functions behave like any other function in any other language, traditional functions don't.
+- Arrows functions behave like any other function in any other language, traditional functions don't.
  
 ## 📝 Instructions
 

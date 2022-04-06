@@ -1,4 +1,4 @@
-# `07` Función de flecha
+# `06` Arrow Function
 
 Una función **arrow** (o de flecha) es **muy similar** a una función tradicional al principio, la diferencia más importante es el símbolo de flecha `=>` que va justo después de la declaración de los parámetros de la función: 
 
@@ -12,7 +12,7 @@ const sum = (param1, param2) => {
 
 En lugar de `function sum(){` debemos colocar `const sum = () => {`, el resto de la sintáxis de la función se mantiene igual.
 
-### Pero, ¿Porqué usar arrows en lugar de funciones tradicionales?
+### Pero, ¿Por qué usar arrows en lugar de funciones tradicionales?
 
 - Son mas rápidas y cortas de escribir.
 
