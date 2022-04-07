@@ -6,9 +6,6 @@
 
 ## 💡 Hint:
 
-+ Every array comes with default functions that allows sorting,
- use them inside your function!
++ Every array comes with default functions that allows sorting, use them inside your function!
 
-+ Stuck on sorting? Read Mozilla's page on sorting arrays:
-
-https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort
++ Stuck on sorting? Read Mozilla's page on sorting arrays: [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort)

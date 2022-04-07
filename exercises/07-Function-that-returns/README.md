@@ -1,4 +1,4 @@
-# `08` Functions that return
+# `07` Functions that return
 
 Is a very good practice that all functions return something, even if it is `null`.
 

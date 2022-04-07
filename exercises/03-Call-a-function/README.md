@@ -29,22 +29,26 @@ The value of `squareArea` will be set to `18`.
 
 ## 📝 Instructions:
 
-1. Create a new variable named `squareArea` for each new iteration of the `calculateArea` function using the figure dimensions, for example for the first figure,
+1. Create a new variable named `squareArea` for each new iteration of the `calculateArea` function using the dimensions of the following figures:
+
+![img](http://i.imgur.com/VyoJRAL.png) 
+
+## Example:
+
+For the first figure:
 
 ```js
-let squareArea1 = calculateArea(3,6);
+let squareArea1 = calculateArea(4, 4);
 ```
 
-For the Second figure,
+For the Second figure:
 
 ```js
 let squareArea2 = functionCall(x,y);
 ```
 
-![img](http://i.imgur.com/VyoJRAL.png)
-
 ## 💡 Hint:
 
 + Call the `calculateArea` function 3 times, one per each square, passing the length and edge of each square.
 
-+ Click here to learn more about functions: http://www.mathopenref.com/functionsprog.html
++ Click here to learn more about functions: [http://www.mathopenref.com/functionsprog.html](http://www.mathopenref.com/functionsprog.html)

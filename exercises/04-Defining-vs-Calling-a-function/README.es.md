@@ -1,6 +1,6 @@
 # `04` Defining VS Calling a Function
 
-Las `funciones` solo existen si tu u otra persona las define ... es la única forma en que el lenguaje compilador/intérprete sabe que existen, por lo tanto, puede ejecutarlas cuando las llamas.
+Las `funciones` solo existen si tu u otra persona las define... es la única forma en que el lenguaje compilador/intérprete sabe que existen, por lo tanto, puede ejecutarlas cuando las llamas.
 
 Para definir una función necesitamos escribir esta fórmula de código básica:
 
@@ -13,7 +13,7 @@ function myFunctionName(parametro, parametro2,... parametroX) {
 
 La palabra `function` es una palabra reservada en javascript, esto significa que solo se usa para definir una `función`.
 
-**El nombre** de la `función` podría ser lo que quieras. Consejo: usa un nombre descriptivo (no intentes ahorrar palabras, usa tantas como necesites) de esta manera entenderás lo que hace la `función` -y lo que devuelve-.
+**El nombre:** de la `función` podría ser lo que quieras. Consejo: usa un nombre descriptivo (no intentes ahorrar palabras, usa tantas como necesites) de esta manera entenderás lo que hace la `función` (y lo que devuelve).
 
 Nombres de ejemplo: `addTwoIntegers` (sumaDosEnteros), `convertAStringIntoAnInteger` (convertirUnStringEnEntero),  `changeTheWorldUsingFrontEndDevelopment` (cambiaElMundoUsandoDesarrolloFrontEnd).
 
@@ -21,9 +21,7 @@ Nombres de ejemplo: `addTwoIntegers` (sumaDosEnteros), `convertAStringIntoAnInte
 
 **Alcance:** Todas las operaciones que haga la función deben estar dentro de las `{` `}` (llaves). Cualquier cosa que esté fuera, no se considerará como parte de la función. Esto se llama  **alcance** (scope), y podría ser local (dentro de la función) y global (fuera de la función).
 
-**El retorno**: no todas las funciones deben retornar algo, pero se recomienda que lo hagan.
-
-Consejo: `return;` es un buen valor predeterminado para cuando, aún, no sabes si se necesita retornar algo.
+**El retorno:** No todas las funciones deben retornar algo, pero se recomienda que lo hagan. Consejo: `return;` es un buen valor predeterminado para cuando, aún, no sabes si se necesita retornar algo.
 
 Ejemplo de una funcion:
 
@@ -46,4 +44,4 @@ function concatenateNumberToString(localNumber, localString) {
 
 + Recuerda agregar la línea de `return`. Cada función debe retornar algo. En este caso debería ser el resultado de la multiplicación.
 
-¡No te olvides del punto y coma!
++ ¡No te olvides del punto y coma!

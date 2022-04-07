@@ -27,22 +27,26 @@ El valor de `squareArea` se establecerá en `18`.
 
 ## 📝 Instrucciones:
 
-1. Crea una nueva variable llamada `squareArea` para cada nueva iteración de la función `CalculateArea` utilizando las dimensiones de la figura, por ejemplo, para la primera figura:
+1. Crea una nueva variable llamada `squareArea` para cada nueva iteración de la función `CalculateArea` utilizando las dimensiones de las siguientes figuras:
+
+![img](http://i.imgur.com/VyoJRAL.png)
+
+## Ejemplo:
+
+Para la primera figura:
 
 ```js
-let squareArea1 = calculateArea(3,6);
+let squareArea1 = calculateArea(4, 4);
 ```
 
 Para la segunda figura:
 
 ```js
-let squareArea2 = functionCall(x,y);
+let squareArea2 = functionCall(x, y);
 ```
 
-![img](http://i.imgur.com/VyoJRAL.png)
-
-## 💡 Sugerencia:
+## 💡 Pistas:
 
 + Llama a la función `calculateArea` 3 veces, una por cada cuadrado, pasando la longitud y el lado de cada cuadrado.
 
-+ Haz clic aquí para obtener más información sobre las funciones: http://www.mathopenref.com/functionsprog.html
++ Haz clic aquí para obtener más información sobre las funciones: [http://www.mathopenref.com/functionsprog.html](http://www.mathopenref.com/functionsprog.html)
