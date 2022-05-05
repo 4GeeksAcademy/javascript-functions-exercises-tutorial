@@ -20,7 +20,7 @@ it('Did you declare an arrow function and save it to constant named rapid?', fun
 it('Did you create a for loop to iterate through the string and remove the vowels?', function () {
 
    const regex = /for\s*/gm;
-   const fileContent = fs.readFileSync('./exercises/11-Remove-vowels/app.js');
+   const fileContent = fs.readFileSync('./exercises/10-Remove-vowels/app.js');
     const match = regex.exec(fileContent);
 
     expect(match).toBeTruthy();
