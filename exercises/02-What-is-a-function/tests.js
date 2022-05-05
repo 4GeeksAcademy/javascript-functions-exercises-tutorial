@@ -22,7 +22,7 @@ it('Superduper has to be equal to the sum of the two numbers', function () {
 it('You have to call the function sum', function () {
 
     const regex =  /sum\s*\(\s*(\d+)\s*,\s*(\d+)\)/gm;
-    const fileContent = fs.readFileSync('./exercises/03-What-is-a-function/app.js');
+    const fileContent = fs.readFileSync('./exercises/02-What-is-a-function/app.js');
     const match = regex.exec(fileContent);
 
 
@@ -34,7 +34,7 @@ it('You have to call the function sum', function () {
 it('The function sum has to be called with the two values', function () {
 
     const regex =  /sum\s*\(\s*3445324\s*,\s*53454423\s*\)/gm;
-    const fileContent = fs.readFileSync('./exercises/03-What-is-a-function/app.js');
+    const fileContent = fs.readFileSync('./exercises/02-What-is-a-function/app.js');
     const match = regex.exec(fileContent);
 
     expect(match).toBeTruthy();
