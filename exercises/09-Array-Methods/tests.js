@@ -2,7 +2,7 @@ const rewire = require('rewire');
 const fs = require('fs');
 
 test('The function should use the sort method to sort the arrays', () => {
-    const fileContent = fs.readFileSync('./exercises/10-Array-Methods/app.js');
+    const fileContent = fs.readFileSync('./exercises/09-Array-Methods/app.js');
     const regex = /\w+\.sort\(/gm;
     expect(regex.exec(fileContent)).toBeTruthy();
 })
