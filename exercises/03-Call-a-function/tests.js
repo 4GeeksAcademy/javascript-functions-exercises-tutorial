@@ -22,7 +22,7 @@ it('You have to call the function calculateArea three times with the different a
     const regex1 =  /squareArea1\s*=\s*calculateArea\s*\(\s*(\d+)\s*,\s*(\d+)\)/gm;
     const regex2 =  /squareArea2\s*=\s*calculateArea\s*\(\s*(\d+)\s*,\s*(\d+)\)/gm;
     const regex3 =  /squareArea3\s*=\s*calculateArea\s*\(\s*(\d+)\s*,\s*(\d+)\)/gm;
-    const fileContent = fs.readFileSync('./exercises/04-Call-a-function/app.js');
+    const fileContent = fs.readFileSync('./exercises/03-Call-a-function/app.js');
     const match1 = regex1.exec(fileContent);
     const match2 = regex2.exec(fileContent);
     const match3 = regex3.exec(fileContent);
