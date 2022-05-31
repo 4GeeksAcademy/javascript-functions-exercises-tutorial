@@ -12,13 +12,13 @@ it('The console.log output does not match what we expected', function () {
 });
 it('There must be an arrow => at some point in your code', () => {
     const regex = /=>/gm;
-    const fileContent = fs.readFileSync('./exercises/07-Arrow-function/app.js');
+    const fileContent = fs.readFileSync('./exercises/06-Arrow-function/app.js');
     const match = regex.exec(fileContent);
     expect(match).toBeTruthy();
 });
 it('Your code must not contain the word "function" anywhere', () => {
     const regex = /function/gm;
-    const fileContent = fs.readFileSync('./exercises/07-Arrow-function/app.js');
+    const fileContent = fs.readFileSync('./exercises/06-Arrow-function/app.js');
     const match = regex.exec(fileContent);
     expect(match).not.toBeTruthy();
 });
