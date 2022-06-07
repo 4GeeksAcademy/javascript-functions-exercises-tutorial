@@ -19,9 +19,9 @@ it('Declare a squareArea variable for each call ex. squareArea1, squareArea2...'
 
 it('You have to call the function calculateArea three times with the different area parameters', function () {
 
-    const regex1 =  /squareArea1\s*=\s*calculateArea\s*\(\s*(\d+)\s*,\s*(\d+)\)/gm;
-    const regex2 =  /squareArea2\s*=\s*calculateArea\s*\(\s*(\d+)\s*,\s*(\d+)\)/gm;
-    const regex3 =  /squareArea3\s*=\s*calculateArea\s*\(\s*(\d+)\s*,\s*(\d+)\)/gm;
+    const regex1 =  /squareArea1\s*=\s*calculateArea\s*\(\s*(\d+)\s*,\s*(\d+)\s*\)/gm;
+    const regex2 =  /squareArea2\s*=\s*calculateArea\s*\(\s*(\d+)\s*,\s*(\d+)\s*\)/gm;
+    const regex3 =  /squareArea3\s*=\s*calculateArea\s*\(\s*(\d+)\s*,\s*(\d+)\s*\)/gm;
     const fileContent = fs.readFileSync('./exercises/03-Call-a-function/app.js');
     const match1 = regex1.exec(fileContent);
     const match2 = regex2.exec(fileContent);
@@ -56,9 +56,9 @@ it('Call the calculateArea function with the correct parameters', function () {
 
 it('The function calculateArea has to be called with the two values', function () {
 
-    const regex1 =  /squareArea1\s*=\s*calculateArea\s*\(\s*(\d+)\s*,\s*(\d+)\)/gm;
-    const regex2 =  /squareArea2\s*=\s*calculateArea\s*\(\s*(\d+)\s*,\s*(\d+)\)/gm;
-    const regex3 =  /squareArea3\s*=\s*calculateArea\s*\(\s*(\d+)\s*,\s*(\d+)\)/gm;
+    const regex1 =  /squareArea1\s*=\s*calculateArea\s*\(\s*(\d+)\s*,\s*(\d+)\s*\)/gm;
+    const regex2 =  /squareArea2\s*=\s*calculateArea\s*\(\s*(\d+)\s*,\s*(\d+)\s*\)/gm;
+    const regex3 =  /squareArea3\s*=\s*calculateArea\s*\(\s*(\d+)\s*,\s*(\d+)\s*\)/gm;
     const fileContent = fs.readFileSync('./exercises/03-Call-a-function/app.js');
     const match1 = regex1.exec(fileContent);
     const match2 = regex2.exec(fileContent);
