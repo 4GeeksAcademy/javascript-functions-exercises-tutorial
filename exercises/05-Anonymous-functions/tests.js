@@ -11,7 +11,7 @@ it('The console.log output does not match what we expected', function () {
 });
 it('Did you called the function multy with the two parameters?', () => {
     const regex = /multy\s*\(\s*324234\s*,\s*47\s*\)/gm;
-    const fileContent = fs.readFileSync('./exercises/06-Anonymous-functions/app.js');
+    const fileContent = fs.readFileSync('./exercises/05-Anonymous-functions/app.js');
     const match = regex.exec(fileContent);
     expect(match).toEqual(expect.anything());
 });
