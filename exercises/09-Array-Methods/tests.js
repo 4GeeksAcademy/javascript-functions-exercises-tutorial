@@ -1,6 +1,26 @@
 const rewire = require('rewire');
 const fs = require('fs');
 
+test('The Function `sortNames` should exist', () => { 
+    const app = rewire('./app.js');
+    const sortNames = app.__get__('sortNames');
+    expect(sortNames).toBeTruthy()
+
+ })
+ test("Function sortNames should return something", function(){
+    const file = rewire("./app.js");
+    const list = ['Jhon','Lucas']
+    const sortNames = file.__get__('sortNames');
+    expect(sortNames(list)).toBeTruthy()
+  });
+
+test('The function should return an array', () => { 
+    const file = rewire('./app.js')
+    const sortNames = file.__get__('sortNames')
+    let arr = ['sadiel','james','saikel'];
+    expect(Array.isArray(sortNames(arr))).toBe(true)
+ })
+
 test('The function should use the sort method to sort the arrays', () => {
     const fileContent = fs.readFileSync('./exercises/09-Array-Methods/app.js');
     const regex = /\w+\.sort\(/gm;
