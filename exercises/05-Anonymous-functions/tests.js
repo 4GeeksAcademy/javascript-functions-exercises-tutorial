@@ -19,16 +19,17 @@ it('The console.log output does not match what we expected', function () {
 });
 
 
-it('Make sure the function is doing what is supposed to', function () {
+it('The function should multiply the two arguments [testing with 3 & 6 ] ', function () {
     const multy = rewire ('./app.js').__get__("multy");
     let solution = multy(3,6);
-    let solution1 = multy(3,100);
-    let solution2 = multy(7,300);
-
     expect(solution).toBe(18);
-    expect(solution1).toBe(300);
-    expect(solution2).toBe(2100);
-    
+});
+
+
+it('The function should multiply the two arguments [testing with 50 & 200]', function () {
+    const multy = rewire ('./app.js').__get__("multy");
+    let solution = multy(50,200);
+    expect(solution).toBe(10000);
 });
 
 it('Did you called the function multy with the two parameters?', () => {
