@@ -1,3 +1,5 @@
+<!-- hide -->
+
 #  Practica Funciones en Javascript 
 
 <a href="https://www.4geeksacademy.co"><img height="280" align="right" src="https://github.com/4GeeksAcademy/javascript-arrays-exercises-tutorial/blob/master/badge-loop.png"></a>
@@ -15,6 +17,8 @@
   <li><a href="https://github.com/4GeeksAcademy/javascript-functions-exercises-tutorial">Funciones de Javascript </a>← Estás aquí</li>
   <li><a href="(https://github.com/4GeeksAcademy/master-javascript-programming-exercises">Master Javascripts</a></li>
 </ol>
+
+<!-- endhide -->
 
 ¡Te necesitamos! Estos ejercicios se crean y mantienen con colaboradores como tú. Si encuentra salgún error o falta de ortografía, contribuye y/o infórmanos.
 
