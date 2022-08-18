@@ -1,3 +1,4 @@
+<!-- hide -->
 # Practice Functions in Javascript 
 
 <a href="https://www.4geeksacademy.co"><img height="280" align="right" src="https://github.com/4GeeksAcademy/javascript-functions-exercises-tutorial/blob/master/.learn/assets/js-functions-badge.png"></a>
@@ -15,6 +16,8 @@
   <li><a href="https://github.com/4GeeksAcademy/javascript-functions-exercises-tutorial">Javascript Functions</a>← You are here</li>
   <li><a href="(https://github.com/4GeeksAcademy/master-javascript-programming-exercises">Master Javascripts</a></li>
 </ol>
+
+<!-- endhide -->
 
 These exercises are intent to be built by collaboration, we need you! If you find any bugs or misspells please contribute and report them.
 
