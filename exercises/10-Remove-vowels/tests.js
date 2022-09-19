@@ -9,32 +9,25 @@ let _log = console.log;
 global.console.log = console.log = jest.fn((text) => _buffer += text + "\n");
 
 it('Declare an arrow function called "rapid"', function () {
-
     const app = rewire('./app.js');
     let rapid = app.__get__("rapid");
-   const regex = /const\s*rapid\s*=\s*\(?\s*(\w+)\s*\)?\s*=>/gm;
-   const fileContent = fs.readFileSync('./exercises/10-Remove-vowels/app.js');
+    const regex = /const\s*rapid\s*=\s*\(?\s*(\w+)\s*\)?\s*=>/gm;
+    const fileContent = fs.readFileSync('./exercises/10-Remove-vowels/app.js');
     const match = regex.exec(fileContent);
 
     expect(match).toBeTruthy();
     expect(rapid).toBeTruthy();
-
 });
 
-
 it('Create a for loop that iterates through the string and removes the vowels', function () {
-
-   const regex = /for\s*/gm;
-   const fileContent = fs.readFileSync('./exercises/10-Remove-vowels/app.js');
+    const regex = /for\s*/gm;
+    const fileContent = fs.readFileSync('./exercises/10-Remove-vowels/app.js');
     const match = regex.exec(fileContent);
 
     expect(match).toBeTruthy();
-
-
 });
 
 it('console.log() function should be called with the string "JHN"', function () {
-
     //then I import the index.js (which should have the alert() call inside)
     const file = require("./app.js");
     const str = 'JHN';
