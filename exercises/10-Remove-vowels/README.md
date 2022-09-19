@@ -1,4 +1,4 @@
-# `11` Remove vowels
+# `10` Remove vowels
 
 Take note:
 

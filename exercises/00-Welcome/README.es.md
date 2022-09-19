@@ -18,7 +18,7 @@ Durante este curso aprenderás los siguientes conceptos:
 
 + [https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Functions](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Functions)
 
-+ [https://devcode.la/tutoriales/funciones-en-javascript/](https://devcode.la/tutoriales/funciones-en-javascript/)
++ [https://devcode.la/tutoriales/funciones-en-javascript/](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function)
 
 ## Colaboradores
 
