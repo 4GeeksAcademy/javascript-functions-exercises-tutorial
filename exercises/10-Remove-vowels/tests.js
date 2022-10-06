@@ -1,5 +1,7 @@
-const rewire = require('rewire');
 const fs = require('fs');
+const path = require('path');
+const rewire = require('rewire');
+const file = fs.readFileSync(path.resolve(__dirname, './app.js'), 'utf8');
 
 let _buffer = "";
 let _log = console.log;
@@ -10,19 +12,18 @@ global.console.log = console.log = jest.fn((text) => _buffer += text + "\n");
 
 it('Declare an arrow function called "rapid"', function () {
     const app = rewire('./app.js');
+
     let rapid = app.__get__("rapid");
     const regex = /const\s*rapid\s*=\s*\(?\s*(\w+)\s*\)?\s*=>/gm;
-    const fileContent = fs.readFileSync('./exercises/10-Remove-vowels/app.js');
-    const match = regex.exec(fileContent);
+    const match = regex.test(file.toString())
 
     expect(match).toBeTruthy();
     expect(rapid).toBeTruthy();
 });
 
-it('Create a for loop that iterates through the string and removes the vowels', function () {
+it('Did you create a for loop to iterate through the string and remove the vowels?', function () {
     const regex = /for\s*/gm;
-    const fileContent = fs.readFileSync('./exercises/10-Remove-vowels/app.js');
-    const match = regex.exec(fileContent);
+    const match = regex.test(file.toString())
 
     expect(match).toBeTruthy();
 });
@@ -30,14 +31,7 @@ it('Create a for loop that iterates through the string and removes the vowels', 
 it('console.log() function should be called with the string "JHN"', function () {
     //then I import the index.js (which should have the alert() call inside)
     const file = require("./app.js");
-    const str = 'JHN';
-
     //Expect the console log to have been called with "Hello World" at least one
     expect(console.log).toHaveBeenCalledWith('JHN');
-    //and I expect the console.log to be already called just one time.
-    // expect(console.log.mock.calls.length).toBe(2);
-
-    //You can also compare the entire console buffer (if there have been several console.log calls on the exercise)
-    //expect(_buffer).toBe("Compare with the entire function buffer out");
 });
 
