@@ -1,9 +1,15 @@
 {
   "language": "node",
-  "title": "Practice Javascript Functions Tutorial",
+  "title": {
+    "us": "Practice Javascript Functions Tutorial",
+    "es": "Tutorial para Practicar Funciones de Javascript"
+  },
   "preview": "https://github.com/4GeeksAcademy/javascript-functions-exercises-tutorial/blob/master/.learn/assets/preview.png?raw=true",
   "slug": "javascript-functions-exercises-tutorial",
-  "description": "Start using and practicing javascript functions, learn about arrows, anonymus functions, closures, callbacks and more!",
+  "description": {
+    "us": "Start using and practicing javascript functions, learn about arrows, anonymus functions, closures, callbacks and more!",
+    "es": "Empieza a usar y practicar con funciones de JavaScript, aprende sobre funciones flechas, anónimas, callbacks y más!"
+  },
   "repository": "https://github.com/4GeeksAcademy/javascript-functions-exercises-tutorial",
   "duration": 5,
   "difficulty": "easy",
