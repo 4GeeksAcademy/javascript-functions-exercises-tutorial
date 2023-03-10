@@ -19,13 +19,13 @@
 
 <!-- endhide -->
 
-These exercises are intent to be built by collaboration, we need you! If you find any bugs or misspells please contribute and report them.
+These exercises are intent to be built by collaboration, we need you! If you find any bugs or misspellings please contribute and report them.
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/4GeeksAcademy/react-exercises/master/preview.gif">
 </p>
 
-## Instalación en un clic:
+## One Click Installation:
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io#https://github.com/4GeeksAcademy/javascript-functions-exercises.git)
 
@@ -47,14 +47,14 @@ $ cd javascript-functions-exercises-tutorial
 
 Note: Once you finish downloading, you will find a "exercises" folder that contains all the exercises within.
 
-3. Start the tutorial/exercises by running the following command at the same level were your bc.json file is:
+3. Start the tutorial/exercises by running the following command at the same level where your bc.json file is:
 
 ```sh
 $ npm i jest@24.8.0 -g
 $ learnpack start
 ```
 
-Note: The exercises have automatic grading but its very rigid and string, my recomendation is to ignore the tests and use them only as a recomendation or you can get frustrated.
+Note: The exercises have automatic grading but its very rigid and strict, my recommendation is to ignore the tests and use them only as a recommendation or you can get frustrated.
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/4GeeksAcademy/react-exercises/master/preview.gif">
@@ -79,4 +79,4 @@ Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds
 3. [Marco Gómez (marcogonzalo)](https://github.com/marcogonzalo), contribution: (bug reports) :🐛, (translation) 🌎
 
 
-This project follows the[all-contributors](https://github.com/kentcdodds/all-contributors) specification.Contributions of any kind are welcome!
+This project follows the[all-contributors](https://github.com/kentcdodds/all-contributors) specification. Contributions of any kind are welcome!
