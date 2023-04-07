@@ -19,15 +19,28 @@
 
 <!-- endhide -->
 
+Learn the basics about functions in Javascript:
+
+1. Basic theory about functions in javascript.
+2. Learn the syntax on how to create functions.
+3. How to call functions.
+4. What are function parameters and the return statement.
+5. How to create tradiciontal, arrow and anonymus functions.
+6. Use functions in different scenarios like for replacing vowels in a string.
+
 These exercises are intent to be built by collaboration, we need you! If you find any bugs or misspells please contribute and report them.
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/4GeeksAcademy/react-exercises/master/preview.gif">
 </p>
 
-## Instalación en un clic:
+<!-- hide -->
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io#https://github.com/4GeeksAcademy/javascript-functions-exercises.git)
+## One click installation (recommended):
+
+You can open these exercises in just a few seconds by cliking: [Open in Codespaces](https://codespaces.new/?repo=4GeeksAcademy/javascript-functions-exercises-tutorial) (recommended) or [Open in Gitpod](https://gitpod.io#https://github.com/4GeeksAcademy/javascript-functions-exercises-tutorial).
+
+> Once you have VSCode open, if exercises don't run automatically you can try typing on your terminal: `$ learnpack start`
 
 ## Local Installation
 
@@ -53,6 +66,8 @@ Note: Once you finish downloading, you will find a "exercises" folder that conta
 $ npm i jest@24.8.0 -g
 $ learnpack start
 ```
+
+<!-- endhide -->
 
 Note: The exercises have automatic grading but its very rigid and string, my recomendation is to ignore the tests and use them only as a recomendation or you can get frustrated.
 
