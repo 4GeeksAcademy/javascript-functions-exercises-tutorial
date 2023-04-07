@@ -26,9 +26,13 @@
   <img src="https://raw.githubusercontent.com/4GeeksAcademy/react-exercises/master/preview.gif">
 </p>
 
-## Instalacion en un clic:
+<!-- hide -->
 
-[![Ábrelo en Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io#https://github.com/4GeeksAcademy/javascript-functions-exercises.git)
+## Instalación en un clic (recomendado)
+
+Puedes empezar estos ejercicios en pocos segundos haciendo clic en: [Abrir en Codespaces](https://codespaces.new/?repo=4GeeksAcademy/javascript-functions-exercises) (recomendado) o [Abrir en Gitpod](https://gitpod.io#https://github.com/4GeeksAcademy/javascript-functions-exercises).
+
+> Una vez ya tengas abirto VSCode los ejercicios deberían empezar automáticamente, si esto no sucede puedes intentar empezar los ejercicios escribiendo este comando en tu terminal: `$ learnpack start`
 
 ## Instalación local
 
@@ -54,6 +58,8 @@ Nota: Una vez que termines de descargarlo, encontrarás una carpeta llamada "exe
 $ npm i jest@24.8.0 -g
 $ learnpack start
 ```
+
+<!-- endhide -->
 
 Nota: Estos ejercicios tienen calificación automática pero es un tanto rígida, te recomiendo ignorar los tests, considéralos como una recomendación o podrías frustrarte.
 
