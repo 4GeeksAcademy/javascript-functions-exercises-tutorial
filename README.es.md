@@ -38,14 +38,14 @@ Puedes empezar estos ejercicios en pocos segundos haciendo clic en: [Abrir en Co
 
 1. Instala learnpack, el package manager para tutoriales y el plugin compilador de html para learnpack, asegúrate de tener instalado node.js 14+:
 
-```
+```bash
 $ npm i learnpack -g
 $ learnpack plugins:install learnpack-node
 ```
 
 2. Descarga este ejercicio en particular usando learnpack y `cd` dentro de la carpeta:
 
-```
+```bash
 $ learnpack download javascript-functions-exercises-tutorial
 $ cd javascript-functions-exercises-tutorial
 ```
@@ -54,7 +54,7 @@ Nota: Una vez que termines de descargarlo, encontrarás una carpeta llamada "exe
 
 3. Inicializa el tutorial/exercises ejecutando el siguiente comando al mismo nivel en el que se encuentra tu archivo bc.json: 
 
-```sh
+```bash
 $ npm i jest@24.8.0 -g
 $ learnpack start
 ```
