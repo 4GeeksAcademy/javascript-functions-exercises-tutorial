@@ -20,6 +20,16 @@
 
 <!-- endhide -->
 
+Siendo javascript un lenguaje "funcional" es de entender porque las functiones son tan importantes de aprender. En este tutorial aprenderás los básico que necesitas para manejarte con funciones:
+
+1. Llama tus primeras funciones.
+2. Crea tus propias funciones.
+3. Funciones anónimas.
+4. Funciones "arror" o de flecha.
+5. Agregar parámetros y como utilizarlos.
+6. Re-utiliza funciones.
+7. Algunos casos prácticos.
+
 ¡Te necesitamos! Estos ejercicios se crean y mantienen con colaboradores como tú. Si encuentras algún error o falta de ortografía, contribuye y/o infórmanos.
 
 <p align="center">
