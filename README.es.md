@@ -68,19 +68,17 @@ Nota: Una vez que termines de descargarlo, encontrarás una carpeta llamada "exe
 $ npm i jest@24.8.0 -g
 $ learnpack start
 ```
-
 <!-- endhide -->
-
-Nota: Estos ejercicios tienen calificación automática pero es un tanto rígida, te recomiendo ignorar los tests, considéralos como una recomendación o podrías frustrarte.
 
 ## ¿Cómo están organizados los ejercicios?
 
 Cada ejercicio es una pequeña aplicación de react que contiene los siguientes archivos:
-|    |    |
-|:---|:---|
-| **app.js** | Representa el archivo javascript de entrada que ejecutará la computadora ||
-| **README.md** | Contiene las instrucciones de ejercicio |
-| **test.js** | Contiene el script del test para el ejercicio (no es necesario que abras este archivo) |
+
+1. **app.js:** representa el archivo javascript de entrada que ejecutará la computadora.
+2. **README.md:** contiene las instrucciones de ejercicio.
+3. **test.js:** contiene el script del test para el ejercicio (no es necesario que abras este archivo).
+
+> Nota: Estos ejercicios tienen calificación automática pero es un tanto rígida, te recomiendo ignorar los tests, considéralos como una recomendación o podrías frustrarte.
 
 ## Colaboradores
  
@@ -93,3 +91,5 @@ Gracias a estas personas maravillosas ([emoji key](https://github.com/kentcdodds
 3. [Marco Gómez (marcogonzalo)](https://github.com/marcogonzalo), contribution: (bug reports) 🐛, (translation) 🌎
 
 Este proyecto sigue la especificación [all-contributors](https://github.com/kentcdodds/all-contributors). ¡Todas las contribuciones son bienvenidas!
+
+Este y otros ejercicios son usados para [aprender a programar](https://4geeksacademy.com/es/aprender-a-programar/aprender-a-programar-desde-cero) por parte de los alumnos de 4Geeks Academy [Coding Bootcamp](https://4geeksacademy.com/us/coding-bootcamp) realizado por [Alejandro Sánchez](https://twitter.com/alesanchezr) y muchos otros contribuyentes. Conoce más sobre nuestros [Curso de Programación](https://4geeksacademy.com/es/curso-de-programacion-desde-cero?lang=es) para convertirte en [Full Stack Developer](https://4geeksacademy.com/es/coding-bootcamps/desarrollador-full-stack/?lang=es), o nuestro [Data Science Bootcamp](https://4geeksacademy.com/es/coding-bootcamps/curso-datascience-machine-learning).

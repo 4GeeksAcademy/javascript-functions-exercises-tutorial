@@ -19,6 +19,8 @@
 
 <!-- endhide -->
 
+*Estas instrucciones [están disponibles en 🇪🇸 español](https://github.com/4GeeksAcademy/javascript-functions-exercises-tutorial/blob/master/README.es.md) :es:*
+
 Learn the basics about functions in Javascript:
 
 1. Basic theory about functions in javascript.
@@ -58,7 +60,7 @@ $ learnpack download javascript-functions-exercises-tutorial
 $ cd javascript-functions-exercises-tutorial
 ```
 
-Note: Once you finish downloading, you will find a "exercises" folder that contains all the exercises within.
+> Note: Once you finish downloading, you will find a "exercises" folder that contains all the exercises within.
 
 3. Start the tutorial/exercises by running the following command at the same level were your bc.json file is:
 
@@ -69,7 +71,6 @@ $ learnpack start
 
 <!-- endhide -->
 
-Note: The exercises have automatic grading but its very rigid and string, my recomendation is to ignore the tests and use them only as a recomendation or you can get frustrated.
 
 ## How are the exercises organized?
 
@@ -78,6 +79,8 @@ Each exercise is a small react application containing the following files:
 1. **app.js:** represents the entry file for the exercise.
 2. **README.md:** contains exercise instructions.
 3. **test.js:** you don't have to open this file, it contains the testing script for the exercise.
+
+> Note: The exercises have automatic grading but its very rigid and string, my recomendation is to ignore the tests and use them only as a recomendation or you can get frustrated.
 
 ## Contributors
 
@@ -89,5 +92,6 @@ Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds
 
 3. [Marco Gómez (marcogonzalo)](https://github.com/marcogonzalo), contribution: (bug reports) :🐛, (translation) 🌎
 
-
 This project follows the[all-contributors](https://github.com/kentcdodds/all-contributors) specification.Contributions of any kind are welcome!
+
+This and many other exercises are built by students as part of the 4Geeks Academy [Coding Bootcamp](https://4geeksacademy.com/us/coding-bootcamp) by [Alejandro Sánchez](https://twitter.com/alesanchezr) and many other contributors. Find out more about our [Full Stack Developer Course](https://4geeksacademy.com/us/coding-bootcamps/part-time-full-stack-developer), and  [Data Science Bootcamp](https://4geeksacademy.com/us/coding-bootcamps/datascience-machine-learning).
