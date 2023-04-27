@@ -21,4 +21,4 @@ console.log(x(2,2));
 
 ## 💡 Hint:
 
-+ Implement these functions in your code to get the correct return: `.toLowerCase()` and `.toUpperCase()`
++ Implement these methods in your code to get the correct return: `.toLowerCase()` and `.toUpperCase()`
