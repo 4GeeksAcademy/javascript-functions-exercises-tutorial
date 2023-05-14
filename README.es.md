@@ -25,7 +25,7 @@ Siendo javascript un lenguaje "funcional" es de entender porque las functiones s
 1. Llama tus primeras funciones.
 2. Crea tus propias funciones.
 3. Funciones anónimas.
-4. Funciones "arror" o de flecha.
+4. Funciones "arrow" o de flecha.
 5. Agregar parámetros y como utilizarlos.
 6. Re-utiliza funciones.
 7. Algunos casos prácticos.
