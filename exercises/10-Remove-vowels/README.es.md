@@ -21,4 +21,4 @@ console.log(x(2,2));
 
 ## 💡 Pista:
 
-+ Implementa estas metodos en tu código para retornar el resultado correcto: `.toLowerCase()` y `.toUpperCase()`
++ Implementa estos métodos en tu código para retornar el resultado correcto: `.toLowerCase()` y `.toUpperCase()`
