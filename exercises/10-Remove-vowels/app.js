@@ -1,6 +1,5 @@
-const rapid = (myString) => {
-    // Your code goes here
-};
+// Your code goes here
+
 
 // Work above this line; do not change code below
 let str = "John";

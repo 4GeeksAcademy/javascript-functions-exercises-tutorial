@@ -28,10 +28,14 @@ it('Did you create a for loop to iterate through the string and remove the vowel
     expect(match).toBeTruthy();
 });
 
-it('console.log() function should be called with the string "JHN"', function () {
+it('rapid function should return only capitalize consonants of any given string', function () {
     //then I import the index.js (which should have the alert() call inside)
-    const file = require("./app.js");
+    const app = rewire('./app.js');
+
+    let rapid = app.__get__("rapid");
+
     //Expect the console log to have been called with "Hello World" at least one
-    expect(console.log).toHaveBeenCalledWith('JHN');
+    expect(rapid("John")).toBe('JHN');
+    expect(rapid("Wonderful")).toBe('WNDRFL');
 });
 
