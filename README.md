@@ -21,14 +21,14 @@
 
 *Estas instrucciones [están disponibles en 🇪🇸 español](https://github.com/4GeeksAcademy/javascript-functions-exercises-tutorial/blob/master/README.es.md) :es:*
 
-Learn the basics about functions in Javascript:
+Learn the basics about functions in JavaScript:
 
-1. Basic theory about functions in javascript.
+1. Basic theory about functions in JavaScript.
 2. Learn the syntax on how to create functions.
 3. How to call functions.
 4. What are function parameters and the return statement.
 5. How to create traditional, arrow and anonymous functions.
-6. Use functions in different scenarios like for replacing vowels in a string.
+6. Use functions in different scenarios, like for replacing vowels in a string.
 
 These exercises are intent to be built by collaboration, we need you! If you find any bugs or misspells please contribute and report them.
 
