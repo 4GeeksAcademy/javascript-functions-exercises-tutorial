@@ -41,7 +41,7 @@ Puedes empezar estos ejercicios en pocos segundos haciendo clic en: [Abrir en Co
 
 ## Instalación local
 
-1. Instala LearnPack, el package manager para tutoriales y el plugin compilador de HTML para LearnPack, asegúrate de tener instalado node.js 14+:
+1. Instala LearnPack, el package manager para tutoriales y el plugin compilador de node para LearnPack, asegúrate de tener instalado node.js 14:
 
 ```bash
 $ npm i learnpack -g
