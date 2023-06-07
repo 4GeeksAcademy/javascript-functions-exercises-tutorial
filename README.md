@@ -17,9 +17,8 @@
   <li><a href="https://github.com/4GeeksAcademy/master-javascript-programming-exercises">Master JavaScript</a></li>
 </ol>
 
-<!-- endhide -->
-
 *Estas instrucciones [están disponibles en 🇪🇸 español](https://github.com/4GeeksAcademy/javascript-functions-exercises-tutorial/blob/master/README.es.md) :es:*
+<!-- endhide -->
 
 Learn the basics about functions in JavaScript:
 
@@ -42,7 +41,7 @@ You can open these exercises in just a few seconds by clicking: [Open in Codespa
 
 ## Local Installation
 
-1. Install LearnPack, the package manager for learning tutorials and the node compiler plugin for LearnPack, make sure you also have node.js 14:
+1. Install LearnPack, the package manager for learning tutorials and the node compiler plugin for LearnPack, make sure you also have node.js 14+:
 
 ```bash
 $ npm i learnpack -g
@@ -58,7 +57,7 @@ $ cd javascript-functions-exercises-tutorial
 
 > Note: Once you finish downloading, you will find an "exercises" folder that contains all the exercises within.
 
-3. Start the tutorial/exercises by running the following command at the same level were your learn.json file is:
+3. Start the tutorial/exercises by running the following command at the same level where your learn.json file is:
 
 ```bash
 $ npm i jest@24.8.0 -g
