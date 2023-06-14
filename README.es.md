@@ -41,6 +41,8 @@ Puedes empezar estos ejercicios en pocos segundos haciendo clic en: [Abrir en Co
 
 ## Instalación local
 
+Clona el repositorio en tu ambiente local y sigue los siguientes pasos:
+
 1. Instala LearnPack, el package manager para tutoriales y el plugin compilador de node para LearnPack, asegúrate de tener instalado node.js 14+:
 
 ```bash
