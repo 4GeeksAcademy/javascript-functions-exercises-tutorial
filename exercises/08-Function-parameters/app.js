@@ -1,6 +1,9 @@
 // Your code goes here:
-function renderPerson(){
-  return "Bob is a 23 years old male born in 05/22/1983 with green eyes"
+function renderPerson(person){
+
+  let person = 'Bob'+ ''
+
+  return  person ="Bob is a 23 years old male born in 05/22/1983 with green eyes"
 }
 
   ///*** Do not edit below this line ****/
