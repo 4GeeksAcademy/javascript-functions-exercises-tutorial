@@ -9,7 +9,7 @@ The names of the parameters don't matter, but you have to be as explicit as you 
 1. Please write the `renderPerson` function required to print a a string like the following:
 
 ```js
-"Bob is a 23 years old male born in 05/22/1983 with green eyes"
+"Bob is a 23 year old male born on 05/22/1983 with green eyes"
 ```
 
 ## 💡 Hint:
