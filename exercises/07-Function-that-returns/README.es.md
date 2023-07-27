@@ -6,7 +6,7 @@ Si tus funciones retornan algo, puedes crear algoritmos que utilicen varias func
 
 En este caso particular tenemos dos funciones disponibles:
 
-+ `dollarToEuro`: calcula el valor en euros de un monto dólares dado.
++ `dollarToEuro`: calcula el valor en euros de un monto de dólares dado.
 
 + `euroToYen`: calcula el valor en yenes de un monto de euros dado.
 
