@@ -1,6 +1,3 @@
----
-tutorial: "https://youtu.be/bvRmj3Tj5XU"
----
 
 # `03` Calling a Function
 
