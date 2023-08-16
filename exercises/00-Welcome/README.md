@@ -1,4 +1,4 @@
-# Welcome to Javascript Function Exercises!
+# Welcome to JavaScript Function Exercises!
 
 We are very excited to have you here! 🎉 😂
 
@@ -8,7 +8,7 @@ During this course you will be learning the following concepts:
 
 1. Learning how to call Functions.
 
-2. Selecting Correct Javascript methods to sort Arrays.
+2. Selecting correct JavaScript methods to sort Arrays.
 
 3. Get comfortable using ES6 Arrow Functions.
 
@@ -24,11 +24,11 @@ During this course you will be learning the following concepts:
 
 Thanks to these wonderful people ([emoji key](https://github.com/kentcdodds/all-contributors#emoji-key)):
 
-1. [Alejandro Sanchez (alesanchezr)](https://github.com/alesanchezr), contribution: (coder) :computer: (idea) 🤔, (build-tests) :warning:, (pull-request-review) :eyes: (build-tutorial) :white_check_mark: (documentation) :book:
+1. [Alejandro Sanchez (alesanchezr)](https://github.com/alesanchezr), contribution: (coder) 💻 (idea) 🤔, (build-tests) ⚠️, (pull-request-review) 👀 (build-tutorial) ✅ (documentation) 📖
 
-2. [Luis Rivera (luis846)](https://github.com/Luis846), contribution: (coder), (build-tests) :warning:
+2. [Luis Rivera (luis846)](https://github.com/Luis846), contribution: (coder), (build-tests) ⚠️
 
-3. [Marco Gómez (marcogonzalo)](https://github.com/marcogonzalo), contribution: (bug reports) :bug:, (translation) :earth_africa:
+3. [Marco Gómez (marcogonzalo)](https://github.com/marcogonzalo), contribution: (bug reports) 🐛, (translation) 🌍
 
 This project follows these specifications: [all-contributors](https://github.com/kentcdodds/all-contributors) 
 
