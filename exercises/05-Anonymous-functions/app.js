@@ -1,6 +1,6 @@
-let multy = function(a,b){
+let multi = function(a,b) {
     return a*b;
 }
-//Dont edit anything ABOVE this line
+// Dont edit anything ABOVE this line
 
-//your code here
+// Your code here
