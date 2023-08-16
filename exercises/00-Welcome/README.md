@@ -26,7 +26,7 @@ Thanks to these wonderful people ([emoji key](https://github.com/kentcdodds/all-
 
 1. [Alejandro Sanchez (alesanchezr)](https://github.com/alesanchezr), contribution: (coder) 💻 (idea) 🤔, (build-tests) ⚠️, (pull-request-review) 👀 (build-tutorial) ✅ (documentation) 📖
 
-2. [Luis Rivera (luis846)](https://github.com/Luis846), contribution: (coder), (build-tests) ⚠️
+2. [Luis Rivera (luis846)](https://github.com/Luis846), contribution: (coder) 💻, (build-tests) ⚠️
 
 3. [Marco Gómez (marcogonzalo)](https://github.com/marcogonzalo), contribution: (bug reports) 🐛, (translation) 🌍
 
