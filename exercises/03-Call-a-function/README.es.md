@@ -31,7 +31,7 @@ El valor de `squareArea` se establecerá en `18`.
 
 ![cuadrados](http://i.imgur.com/VyoJRAL.png)
 
-## Ejemplo:
+## 📎 Ejemplo:
 
 Para la primera figura:
 
