@@ -20,7 +20,7 @@ Durante este curso aprenderás los siguientes conceptos:
 
 + [https://devcode.la/tutoriales/funciones-en-javascript/](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function)
 
-## Colaboradores
+## Colaboradores:
 
 Gracias a estas maravillosas personas ([emoji key](https://github.com/kentcdodds/all-contributors#emoji-key)):
 
