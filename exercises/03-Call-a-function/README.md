@@ -42,7 +42,7 @@ For the first figure:
 let squareArea1 = calculateArea(4, 4);
 ```
 
-For the Second figure:
+For the second figure:
 
 ```js
 let squareArea2 = functionCall(x, y);
