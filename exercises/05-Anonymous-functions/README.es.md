@@ -12,7 +12,7 @@ function(param1, param2) {
 
 ¿Cómo llamo a esta función si no tiene un nombre?
 
-Las `funciones anónimas` deben almacenarse dentro de una variable para poder usarlas, por ejemplo:
+Las **funciones anónimas** deben almacenarse dentro de una variable para poder usarlas, por ejemplo:
 
 ```js
 let myFirstVar = function(param1, param2) {
