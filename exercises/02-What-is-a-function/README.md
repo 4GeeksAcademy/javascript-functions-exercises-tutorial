@@ -8,7 +8,9 @@ Here is a great 5 min video [explaining functions](https://www.youtube.com/watch
 
 You can see a function as a **fragment of code** that you encapsulate between curly brackets(`{}`) to be able to use it several times.
 
-For example: If we want to get the sum of two numbers, we can declare a function called `sum` that returns the sum of the variables `number1` and `number2`:
+## 📎 Example:
+
+If we want to get the sum of two numbers, we can declare a function called `sum` that returns the sum of the variables `number1` and `number2`:
 
 ```js
 function sum(number1,number2) {
