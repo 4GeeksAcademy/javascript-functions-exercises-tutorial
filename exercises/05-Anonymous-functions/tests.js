@@ -2,7 +2,7 @@ const fs = require('fs');
 const rewire = require('rewire');
 global.console.log = console.log = jest.fn(text => null);
 
-it('The function multi must exist ', () => {
+it('The function multi must exist', () => {
     const app = rewire('./app.js');
     const multi = app.__get__('multi');
     expect(multi).toBeTruthy();
