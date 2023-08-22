@@ -1,6 +1,6 @@
-function multy(a,b){
-    return a*b;
+function multi(a,b) {
+    return a * b;
 }
 
-//Dont edit anything below this line
-console.log(multy(324234,47))
+// Don't edit anything below this line
+console.log(multi(324234,47))
