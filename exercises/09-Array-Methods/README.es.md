@@ -6,6 +6,6 @@
 
 ## 💡 Pistas:
 
-+ Cada array viene con funciones predeterminadas que permiten ordenarlos, ¡Úsalas dentro de tu función!
++ Cada array viene con funciones predeterminadas o métodos que permiten ordenarlos, ¡Úsalas dentro de tu función!
 
 + ¿Atascado? Lee la página de Mozilla sobre ordenar arrays: [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort)
