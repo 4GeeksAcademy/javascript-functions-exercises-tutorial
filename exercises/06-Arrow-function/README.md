@@ -22,4 +22,4 @@ Instead of `function sum() {` it's `const sum = () => {`. The rest of the functi
  
 ## 📝 Instructions:
 
-1. Rewrite the syntax of the current function to make it an arrow function.
+1. Rewrite the syntax of the current `multi` function to make it an arrow function.
