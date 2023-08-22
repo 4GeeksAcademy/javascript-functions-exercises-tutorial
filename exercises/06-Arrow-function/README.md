@@ -14,7 +14,7 @@ Instead of `function sum() {` it's `const sum = () => {`. The rest of the functi
 
 ### But, why having arrow functions in the first place?
 
-- When they have just a single line (like a big percentage of the functions that you will make), they can be super small and easy to write. 
+- When they are just a single line (like a big percentage of the functions that you will make), they can be super small and easy to write. 
 
 - Arrow functions came to fix a scope problem that normal functions have, which requires "binding" especially when working with React. Arrow functions don't require `.bind()`. You can [read more about it here](https://stackoverflow.com/questions/52979915/why-we-dont-need-to-bind-the-arrow-function-in-react).
 
