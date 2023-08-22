@@ -23,13 +23,13 @@ it('Your code must not contain the word "function" anywhere', () => {
     expect(match).not.toBeTruthy();
 });
 
-it('Looking for multi declaration', () => {
+it('Looking for the "multi" declaration', () => {
     const app = rewire('./app.js');
     const multi = app.__get__('multi');
     expect(multi).toBeTruthy();
 });
 
-it('Multi must be an arrow and not a tradicional function', () => {
+it('"multi" must be an arrow and not a tradicional function', () => {
     const app = rewire('./app.js');
     const multi = app.__get__('multi');
     expect(multi.prototype).toBe(undefined);
