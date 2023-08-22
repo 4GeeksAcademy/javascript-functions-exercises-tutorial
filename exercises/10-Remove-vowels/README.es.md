@@ -2,16 +2,16 @@
 
 Toma nota: 
 
-**Las funciones de flecha permiten una sintaxis corta para escribir expresiones de funciones.**
+**Las funciones flecha permiten una sintaxis corta para escribir expresiones de funciones.**
 
 ```js
-const x = (x, y) => x * y;
-console.log(x(2,2));
+const multi = (x, y) => x * y;
+console.log(multi(2,2));
 ```
 
 ## 📝 Instrucciones:
 
-1. Crea una función de flecha llamada `rapid` que tomará un string.
+1. Crea una función flecha llamada `rapid` que tomará un string.
 
 2. Recorre (loop) el texto y elimina todas las vocales.
 
