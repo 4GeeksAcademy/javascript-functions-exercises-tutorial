@@ -2,10 +2,10 @@
 
 ## 📝 Instrucciones:
 
-1. Escribe una función llamada `sortNames` que dado un array o arreglo de nombres, los devuelva en orden alfabético.
+1. Escribe una función llamada `sortNames`. Dado un array de nombres, los devuelva en orden alfabético.
 
-# 💡 Pista:
+## 💡 Pistas:
 
-+ Cada arreglo o array viene con funciones predeterminadas que permiten ordenarlos, ¡Úsalas dentro de tu función!
++ Cada array viene con funciones predeterminadas que permiten ordenarlos, ¡Úsalas dentro de tu función!
 
-+ ¿Atrapado en ordenando? Lee la página de Mozilla sobre ordenar arreglos: [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort)
++ ¿Atascado? Lee la página de Mozilla sobre ordenar arrays: [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort)
