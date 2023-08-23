@@ -7,7 +7,7 @@ let _buffer = "";
 let _log = console.log;
 
 // lets override the console.log function to mock it,
-// but we are also going to save what supposed to be the ouput of the console inside _buffer
+// but we are also going to save what's supposed to be the ouput of the console inside _buffer
 global.console.log = console.log = jest.fn((text) => _buffer += text + "\n");
 
 it('Declare an arrow function called "rapid"', function () {
@@ -28,13 +28,13 @@ it('Did you create a for loop to iterate through the string and remove the vowel
     expect(match).toBeTruthy();
 });
 
-it('rapid function should return only capitalize consonants of any given string', function () {
-    //then I import the index.js (which should have the alert() call inside)
+it('"rapid" function should only return capitalized consonants of any given string', function () {
+    // then I import the index.js (which should have the alert() call inside)
     const app = rewire('./app.js');
 
     let rapid = app.__get__("rapid");
 
-    //Expect the console log to have been called with "Hello World" at least one
+    // expect the console log to have been called with "Hello World" at least once
     expect(rapid("John")).toBe('JHN');
     expect(rapid("Wonderful")).toBe('WNDRFL');
 });

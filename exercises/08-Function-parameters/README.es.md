@@ -1,8 +1,8 @@
 # `08` Function Parameters
 
-Puedes especificar tantos **parámetros** como desees en una función. Como desarrollador@, encontrarás funciones hasta con 6 o 7 parámetros a menudo. 
+Puedes especificar tantos **parámetros** como desees en una función. Como desarrollador/a, encontrarás funciones hasta con 6 o 7 parámetros a menudo. 
 
-El nombre de los parámetros no importa, pero debe ser lo más explícito posible porque esos nombres den pistas a los otros desarrolladores (o a ti en el futuro) sobre de qué se trata cada parámetro.
+El nombre de los parámetros no importa, pero debe ser lo más explícito posible porque esos nombres dan pistas a los otros desarrolladores (o a ti en el futuro) sobre de qué se trata cada parámetro.
 
 ## 📝 Instrucciones:
 
@@ -14,4 +14,4 @@ El nombre de los parámetros no importa, pero debe ser lo más explícito posibl
 
 ## 💡 Pista:
 
-+ Tienes que hacer una concatenación de string y devolver ese string.
++ Tienes que hacer concatenación de strings y devolver ese string.
