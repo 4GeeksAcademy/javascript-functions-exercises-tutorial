@@ -1,7 +1,6 @@
-function calculateArea(length,edge)
-{
-	return length * edge;
+function calculateArea(length, width) {
+	return length * width;
 }
-// Your code Below this line:
 
+// Your code below this line:
 
