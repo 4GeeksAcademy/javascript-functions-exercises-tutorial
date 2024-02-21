@@ -26,7 +26,7 @@ Siendo JavaScript un lenguaje "funcional" es de entender porque las functiones s
 2. Aprende la sintaxis para crear funciones.
 3. Cómo llamar funciones.
 4. Qué son los parámetros de una función y la instrucción return.
-5. Funciones tradicionales, funciones flecha y funciones anónimas.
+5. Funciones tradicionales, funciones flecha (arrow) y funciones anónimas.
 6. Usa funciones en casos prácticos.
 
 ¡Te necesitamos! Estos ejercicios se crean y mantienen con colaboradores como tú. Si encuentras algún error o falta de ortografía, contribuye y/o infórmanos.
