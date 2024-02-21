@@ -9,7 +9,7 @@ it('Did you use console.log?', function () {
 });
 
 
-it('console.log() should be called with euroToYen and dollarToEuro with the correct parameter of 137?', function () {
+it('console.log() should be called with euroToYen and dollarToEuro with the correct parameter of 137', function () {
 
   expect(console.log).toHaveBeenCalledWith(15137.609500000002);
 //    console.log(euroToYen(dollarToEuro(137)));

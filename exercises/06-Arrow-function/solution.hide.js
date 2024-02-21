@@ -1,4 +1,4 @@
-function multi(a,b) {
+const multi = (a,b) => {
     return a * b;
 }
 
