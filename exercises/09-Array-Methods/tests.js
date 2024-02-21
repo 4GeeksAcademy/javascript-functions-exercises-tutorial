@@ -1,13 +1,13 @@
 const rewire = require('rewire');
 const fs = require('fs');
 
-test('The Function `sortNames` should exist', () => { 
+test('The Function "sortNames" should exist', () => { 
     const app = rewire('./app.js');
     const sortNames = app.__get__('sortNames');
     expect(sortNames).toBeTruthy()
 
  })
- test("Function sortNames should return something", function(){
+ test('Function "sortNames" should return something', function(){
     const file = rewire("./app.js");
     const list = ['Jhon','Lucas']
     const sortNames = file.__get__('sortNames');
@@ -27,7 +27,7 @@ test('The function should use the sort method to sort the arrays', () => {
     expect(regex.exec(fileContent)).toBeTruthy();
 })
 
-test('The function should sort the array and then return the array sorted.', () => {
+test('The function should sort the array and then return the array sorted', () => {
     const file = rewire("./app.js");
     const sortNames = file.__get__('sortNames');
     let names = ['Tomas', 'Alejandro', 'Jake', "Mark"];
@@ -35,7 +35,7 @@ test('The function should sort the array and then return the array sorted.', () 
     expect(sortNames(names)).toEqual(sortedNames);
 });
 
-test('The function should sort the array and then return the array sorted. testing with a different array', () => {
+test('The function should sort the array and then return the array sorted. Testing with a different array', () => {
     const file = rewire("./app.js");
     const sortNames = file.__get__('sortNames');
     let names = ['John', 'Kenny', 'Tom', "Bob", 'Dilan'];

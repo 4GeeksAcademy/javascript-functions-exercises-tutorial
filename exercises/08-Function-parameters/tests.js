@@ -13,11 +13,11 @@ it("The function 'renderPerson' should return something" , function () {
     expect(renderPerson()).toBeTruthy();
 });
 
-it("The function 'renderPerson' should return the expected output. Tesing with Bob" , function () {
+it("The function 'renderPerson' should return the expected output. Testing with Bob" , function () {
     expect(renderPerson('Bob', '05/22/1983', 'green', 23, 'male')).toBe("Bob is a 23 years old male born in 05/22/1983 with green eyes")
 });
 
-it("The function 'renderPerson' should return the expected output. Tesing with Katherine" , function () {
+it("The function 'renderPerson' should return the expected output. Testing with Katherine" , function () {
     expect(renderPerson('Katherine', '06/05/2004', 'green', 17, 'female')).toBe("Katherine is a 17 years old female born in 06/05/2004 with green eyes")
 });
 

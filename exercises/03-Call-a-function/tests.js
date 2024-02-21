@@ -3,7 +3,7 @@ const fs = require('fs');
 
 
 
-it('Declare a squareArea variable for each call ex. squareArea1, squareArea2...', function () {
+it('Declare a squareArea variable for each call e.g., squareArea1, squareArea2...', function () {
 
     const app = rewire('./app.js');
     let squareArea1 = app.__get__("squareArea1");
@@ -47,9 +47,9 @@ it('Call the calculateArea function with the correct parameters', function () {
     expect(squareArea2).toBe(2 * 2);
     expect(squareArea3).toBe(5 * 5);
     console.log(`
-    SquareArea1: ${squareArea1}
-    SquareArea2: ${squareArea2}
-    SquareArea3: ${squareArea3}
+    squareArea1: ${squareArea1}
+    squareArea2: ${squareArea2}
+    squareArea3: ${squareArea3}
                  `);
 
 });

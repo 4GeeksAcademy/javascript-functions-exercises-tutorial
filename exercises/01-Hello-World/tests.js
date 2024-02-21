@@ -1,6 +1,6 @@
 
 // lets override the console.log function to mock it,
-// but we are also going to save what supposed to be the ouput of the console inside _buffer
+// but we are also going to save what's supposed to be the output of the console inside _buffer
 
 global.console.log = console.log = jest.fn((text) => null);
 

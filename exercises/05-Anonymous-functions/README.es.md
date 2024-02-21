@@ -12,10 +12,10 @@ function(param1, param2) {
 
 ¿Cómo llamo a esta función si no tiene un nombre?
 
-Las `funciones anónimas` deben almacenarse dentro de una variable para poder usarlas, por ejemplo:
+Las **funciones anónimas** deben almacenarse dentro de una variable para poder usarlas, por ejemplo:
 
 ```js
-var myFirstVar = function(param1, param2){
+let myFirstVar = function(param1, param2) {
     return param1 * param2;
 }
 ```
@@ -23,9 +23,9 @@ var myFirstVar = function(param1, param2){
 Entonces, puedo llamar a mi función así:
 
 ```js
-var result = myFirstVar(2,3);
+let result = myFirstVar(2,3);
 ```
 
 ## 📝 Instrucciones:
 
-1. Imprime en la consola, el resultado de usar la función `multy` para calcular la multiplicación entre `324234` y `47`.
+1. Imprime en la consola el resultado de usar la función `multi` para calcular la multiplicación entre `324234` y `47`.

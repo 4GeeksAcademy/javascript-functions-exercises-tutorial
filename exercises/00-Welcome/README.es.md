@@ -20,15 +20,15 @@ Durante este curso aprenderás los siguientes conceptos:
 
 + [https://devcode.la/tutoriales/funciones-en-javascript/](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function)
 
-## Colaboradores
+## Colaboradores:
 
 Gracias a estas maravillosas personas ([emoji key](https://github.com/kentcdodds/all-contributors#emoji-key)):
 
-1. [Alejandro Sanchez (alesanchezr)](https://github.com/alesanchezr), contribución: (coder) :computer: (idea) 🤔, (build-tests) :warning:, (pull-request-review) :eyes: (build-tutorial) :white_check_mark: (documentación) :book:
+1. [Alejandro Sanchez (alesanchezr)](https://github.com/alesanchezr), contribución: (coder) 💻 (idea) 🤔, (build-tests) ⚠️, (pull-request-review) 👀 (build-tutorial) ✅ (documentación) 📖
 
-2. [Luis Rivera (luis846)](https://github.com/Luis846), contribución: (coder) :computer:, (build-tests) :warning:
+2. [Luis Rivera (luis846)](https://github.com/Luis846), contribución: (coder) 💻, (build-tests) ⚠️
 
-3. [Marco Gómez (marcogonzalo)](https://github.com/marcogonzalo), contribución: (bug reports) :bug:, (traducción) :earth_africa:
+3. [Marco Gómez (marcogonzalo)](https://github.com/marcogonzalo), contribución: (bug reports) 🐛, (traducción) 🌍
 
 Este proyecto sigue las especificaciones: [all-contributors](https://github.com/kentcdodds/all-contributors). 
 
