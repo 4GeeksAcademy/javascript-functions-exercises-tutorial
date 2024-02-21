@@ -29,7 +29,7 @@ Learn the basics about functions in JavaScript:
 5. How to create traditional, arrow and anonymous functions.
 6. Use functions in different scenarios, like for replacing vowels in a string.
 
-These exercises are intent to be built by collaboration, we need you! If you find any bugs or misspells please contribute and report them.
+These exercises are intended to be built by collaboration, we need you! If you find any bugs or misspells please contribute and report them.
 
 <!-- hide -->
 
