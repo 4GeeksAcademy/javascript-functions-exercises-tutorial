@@ -29,7 +29,7 @@ The value of `squareArea` will be set to `18`.
 
 1. Create a new variable named `squareArea` for each new iteration of the `calculateArea` function using the dimensions of the following figures:
 
-![squares](VyoJRAL.png) 
+![squares](../../.learn/assets/call-a-function.png) 
 
 ## 📎 Example:
 
