@@ -8,6 +8,18 @@
 
 // }
 
+// let rapid = (name) => {
+//     let consonants = [];
+  
+//     for (let i = 0; i < name.length; i++) {
+//       if (['a', 'e', 'i', 'o', 'u'].includes(name[i].toLowerCase()) == false) {
+//         consonants.push(name[i].toUpperCase());
+//       }
+//     }
+  
+//     return consonants.join('');
+//   };
+
 let rapid = (name) => {
     let consonants = [];
   
@@ -19,6 +31,8 @@ let rapid = (name) => {
   
     return consonants.join('');
   };
+
+
   
   let str = "Jhon";
   console.log(rapid(str));
