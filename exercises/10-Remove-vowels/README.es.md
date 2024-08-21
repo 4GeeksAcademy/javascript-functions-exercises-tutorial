@@ -1,3 +1,7 @@
+---
+tutorial: "https://www.youtube.com/watch?v=pn0SAndNlKk"
+---
+
 # `10` Remove Vowels
 
 Toma nota: 

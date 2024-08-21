@@ -1,3 +1,7 @@
+---
+tutorial: "https://www.youtube.com/watch?v=jXZebgKMgEc"
+---
+
 # `06` Arrow Function
 
 Una función **arrow** (o de flecha) es **muy similar** a una función tradicional al principio, la diferencia más importante es el símbolo de flecha `=>` que va justo después de la declaración de los parámetros de la función: 

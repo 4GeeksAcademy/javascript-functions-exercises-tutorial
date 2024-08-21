@@ -1,3 +1,7 @@
+---
+tutorial: "https://www.youtube.com/watch?v=2SmefIZKRnw"
+---
+
 # `08` Function Parameters
 
 Puedes especificar tantos **parámetros** como desees en una función. Como desarrollador/a, encontrarás funciones hasta con 6 o 7 parámetros a menudo. 

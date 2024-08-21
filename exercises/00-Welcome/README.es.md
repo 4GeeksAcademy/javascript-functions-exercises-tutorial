@@ -1,3 +1,8 @@
+---
+intro: "https://www.youtube.com/watch?v=LEw_nqH_diA"
+---
+
+
 # ¡Bienvenid@ a los ejercicios de funciones de JavaScript!
 
 ¡Estamos muy contentos de tenerte aquí! 🎉 😂
