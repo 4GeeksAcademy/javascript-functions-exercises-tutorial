@@ -20,7 +20,7 @@
 
 <!-- endhide -->
 
-Siendo JavaScript un lenguaje "funcional" es de entender porque las functiones son tan importantes de aprender. En este tutorial aprenderás lo básico que necesitas para manejarte con funciones:
+Siendo JavaScript un lenguaje "funcional" es de entender porque las funciones son tan importantes de aprender. En este tutorial aprenderás lo básico que necesitas para manejarte con funciones:
 
 1. Teoría básica de funciones en JavaScript.
 2. Aprende la sintaxis para crear funciones.
