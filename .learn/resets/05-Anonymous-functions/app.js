@@ -5,4 +5,3 @@ let multi = function(a,b) {
 
 
 // Your code here
-console.log(multi(324234, 47))
