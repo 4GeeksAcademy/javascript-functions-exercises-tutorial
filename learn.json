@@ -7,8 +7,8 @@
   "preview": "https://github.com/4GeeksAcademy/javascript-functions-exercises-tutorial/blob/master/.learn/assets/preview.png?raw=true",
   "slug": "javascript-functions-exercises-tutorial",
   "description": {
-    "us": "Start using and practicing javascript functions, learn about arrows, anonymus functions, closures, callbacks and more!",
-    "es": "Empieza a usar y practicar con funciones de JavaScript, aprende sobre funciones flechas, anónimas, callbacks y más!"
+    "us": "Learn the basics of JavaScript functions in this tutorial! Explore arrow and anonymous functions, closures, callbacks, and how to create and call functions with parameters and return values. Understand their importance in functional programming and practice with real-life examples.",
+    "es": "¡Aprende lo básico sobre funciones en JavaScript con este tutorial! Descubre funciones flecha y anónimas, closures, callbacks, y cómo crear y llamar funciones con parámetros y valores de retorno. Entiende su importancia en la programación funcional y práctica con ejemplos de la vida real"
   },
   "repository": "https://github.com/4GeeksAcademy/javascript-functions-exercises-tutorial",
   "duration": 5,
@@ -19,7 +19,8 @@
   "skills": ["algorithms"],
   "graded": true,
   "editor": {
-    "version": "5.0"
+    "version": "5.0",
+    "agent": "vscode"
   },
   "telemetry": {
     "batch": "https://breathecode.herokuapp.com/v1/assignment/me/telemetry?asset_id=156"
