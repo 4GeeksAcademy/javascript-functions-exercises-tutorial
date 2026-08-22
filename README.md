@@ -35,7 +35,7 @@ These exercises are intended to be built by collaboration, we need you! If you f
 
 ## One click installation (recommended):
 
-You can open these exercises in just a few seconds by clicking: [Open in Codespaces](https://codespaces.new/?repo=4GeeksAcademy/javascript-functions-exercises-tutorial) (recommended) or [Open in Gitpod](https://gitpod.io#https://github.com/4GeeksAcademy/javascript-functions-exercises-tutorial).
+You can open these exercises in just a few seconds by clicking: [Open in Codespaces](https://codespaces.new/?repo=4GeeksAcademy/javascript-functions-exercises-tutorial) (recommended), [Open in Gitpod](https://gitpod.io#https://github.com/4GeeksAcademy/javascript-functions-exercises-tutorial) or [Open in Codeanywhere](https://app.codeanywhere.com/#https://github.com/4GeeksAcademy/javascript-functions-exercises-tutorial).
 
 > Once you have VSCode open, if exercises don't run automatically you can try typing on your terminal: `$ learnpack start`
 
