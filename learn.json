@@ -13,6 +13,8 @@
   "repository": "https://github.com/4GeeksAcademy/javascript-functions-exercises-tutorial",
   "duration": 5,
   "difficulty": "easy",
+  "gitpod":true,
+  "localhostOnly":false,
   "videoSolutions": true,
   "projectType": "tutorial",
   "bugsLink": "https://github.com/learnpack/learnpack/issues/new",
